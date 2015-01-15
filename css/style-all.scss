@@ -1,0 +1,86 @@
+blockquote {
+  font-style: italic;
+}
+
+#colin-pic {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.caret-right {
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid black;
+}
+
+.creation-date {
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+}
+
+// Navbar Styles
+
+.navbar {
+
+  background-color: white;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+
+  .caret-right {
+    display: none;
+  }
+
+  &.container {
+    width: 100%;
+  }
+
+  h1 {
+    float: left;
+    margin: 10px;
+  }
+
+  label {
+    margin: 20px 25px 0 0;
+    float: right;
+  }
+
+  #mobile-nav {
+
+    display: none;
+
+    &:checked {
+
+      ~ .row .navbar-item {
+        display: block;
+      }
+    }
+  }
+  
+  .navbar-item {
+    display: none;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 16px;
+
+    &:first-child {
+      margin-left: 10px;
+    }
+
+    &.current {
+      .caret-right {
+        display: inline-block;
+      }
+    }
+  }
+
+  > .row {
+    margin-bottom: 0;
+    clear: both;
+  }
+}

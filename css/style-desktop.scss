@@ -1,0 +1,24 @@
+#colin-pic {
+  float: left;
+  margin-right: 10px;
+}
+
+.caret-right {
+  width: 0;
+  height: 0;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 7px solid black;
+}
+
+.navbar {
+
+  label {
+    display: none;
+  }
+
+  .navbar-item {
+    display: block;
+    font-size: 20px;
+  }
+}
