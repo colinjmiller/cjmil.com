@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="651px" height="194px" viewBox="0 0 651 194" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>Areas 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Elementary" sketch:type="MSLayerGroup" transform="translate(0.000000, 25.000000)">
+            <circle id="Oval-2" stroke="#979797" fill="#00FF2D" sketch:type="MSShapeGroup" cx="92.5" cy="62.5" r="62.5"></circle>
+            <circle id="Oval-1" stroke="#979797" fill="#000000" sketch:type="MSShapeGroup" cx="92" cy="62" r="50"></circle>
+            <text id="Areas-of-Knowledge:-" sketch:type="MSTextLayer" font-family="Avenir Next" font-size="14" font-weight="normal" fill="#414141">
+                <tspan x="0" y="163">Areas of Knowledge: Age 13</tspan>
+            </text>
+        </g>
+        <g id="High-School" sketch:type="MSLayerGroup" transform="translate(238.000000, 12.000000)">
+            <circle id="Oval-2" stroke="#979797" fill="#00FF2D" sketch:type="MSShapeGroup" cx="92" cy="75" r="75"></circle>
+            <circle id="Oval-1" stroke="#979797" fill="#000000" sketch:type="MSShapeGroup" cx="92" cy="75" r="50"></circle>
+            <text id="Areas-of-Knowledge:-" sketch:type="MSTextLayer" font-family="Avenir Next" font-size="14" font-weight="normal" fill="#414141">
+                <tspan x="0" y="177">Areas of Knowledge: Age 18</tspan>
+            </text>
+        </g>
+        <g id="College" sketch:type="MSLayerGroup" transform="translate(467.000000, 0.000000)">
+            <path d="M91.0016285,174.633737 C138.499016,174.633737 170.910459,134.877812 177.003257,86.7624886 C186.360413,12.8682605 177.003257,-1.10875993 102.452127,-0.336718065 C27.9009976,0.435323795 5,38.2325382 5,86.7624886 C5,135.292439 43.5042406,174.633737 91.0016285,174.633737 Z" id="Oval-2" stroke="#979797" fill="#00FF2D" sketch:type="MSShapeGroup"></path>
+            <circle id="Oval-1" stroke="#979797" fill="#000000" sketch:type="MSShapeGroup" cx="92" cy="87" r="50"></circle>
+            <text id="Areas-of-Knowledge:-" sketch:type="MSTextLayer" font-family="Avenir Next" font-size="14" font-weight="normal" fill="#414141">
+                <tspan x="0" y="189">Areas of Knowledge: Age 22</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
