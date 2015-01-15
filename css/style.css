@@ -535,6 +535,15 @@ footer {
     margin-bottom: 0;
     clear: both; }
 
+.portfolio #learning-img {
+  display: block;
+  margin: auto;
+  max-width: 651px;
+  width: 100%;
+  margin-bottom: 2.5rem; }
+.portfolio nav ul {
+  list-style: none; }
+
 /* Larger than mobile */
 /* Larger than phablet (also point when grid becomes active) */
 /* Larger than tablet */

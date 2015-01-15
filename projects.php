@@ -55,7 +55,7 @@
         <dd>This sequal to the original is built with Ruby on Rails and has been a wonderful learning experience. I plan to include many more levels than the original and release the game in both English and German. Work on this project is sporadic because it's so creative; if I'm not in the right mind-set then I cannot make progress.</dd>
       </dl>
       <dl>
-        <dt>Honors Portfolio</dt>
+        <dt><a href="portfolio.php">Honors Portfolio</a></dt>
         <dd>As a member of the University of Washington's Honors College, I have to maintain a portfolio of my four years in school and write about my experiences, share class projects, and give advice to incoming freshmen. I will complete this project by Spring of 2015.</dd>
       </dl>
     </div>
