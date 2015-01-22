@@ -1,0 +1,6 @@
+Experiential Learning: TAing Introductory Computer Science
+In the beginning of my second year, I began TAing for the intro series of CSE classes. I regard this as one of my best decisions I made in college.
+I was inspired to do so by my CSE 143 TA, Galen Knapp. He began every lecture with cheesy jokes to lighten the mood, tried his best to ensure we solidified our knowledge in each section, and was an all-around upstanding guy. At the end of the quarter, he let us know of the undergraduate TAing program in the CS department and recommended many of us to apply.
+I interviewed in Spring, 2012 and heard back in the summer that I had been selected for the program.
+And so began my love affair with teaching. Every Tuesday (and Thursday, depending on the quarter), I led a 50-minute section devoted to some area of introductory computer science. Time seemed to pass twice as fast during these times; I loved the inquisative questions my louder students asked and enjoyed the challenge of getting the quieter ones to participate in class. Occasionally, questions would arise that challenged my very foundations; these were perhaps my favorite moments because everyone in the class would get something out of it, myself included.
+Besides the awesome students, the program had an outstanding community. At the time I joined, there were around 30 TAs. 
