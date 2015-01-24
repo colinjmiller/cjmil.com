@@ -1,7 +1,11 @@
 <?php
 
   require_once('view-logic/views.php');
-  require_once('en.php');
+  if (isset($_SESSION["language"]) && $_SESSION["language"] == "de") {
+    require_once('de.php');
+  } else {
+    require_once('en.php');
+  }
 
 ?>
 <?= View::header_logic("Honors Portfolio") ?>

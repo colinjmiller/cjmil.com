@@ -1,5 +1,9 @@
 <?php
 
+if (session_status() == PHP_SESSION_NONE) {
+  session_start();
+}
+
 class View {
   public static function header_logic($title = "cjmil.com") {
     ?>
@@ -25,6 +29,8 @@ class View {
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
           })();
         </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="javascript/language.js"></script>
       </head>
       <body>
     <?php
@@ -34,7 +40,33 @@ class View {
     ?>
         <footer class="container">
           Copyright &copy; <?= date("Y") ?> Colin Miller
+          <div class="language-options">
+            <a href="#" data-action="switch-language">
+             <?= t('switch_language') ?>
+            </a>
+          </div>
         </footer>
+        <div class="language modal backdrop hide"></div>
+        <div class="language modal container hide">
+          <header class="modal header">
+            <?= t('choose_language') ?>
+          </header>
+          <div class="modal body row">
+            <div class="six columns">
+              <a href="#" data-language="en">
+                <?= t('english') ?>
+              </a>
+            </div>
+            <div class="six columns">
+              <a href="#" data-language="de">
+                <?= t('german') ?>
+              </a>
+            </div>
+          </div>
+          <footer class="modal footer">
+            <button class="cancel">Cancel</button>
+          </footer>
+        </div>
       </body>
     </html>
     <?php

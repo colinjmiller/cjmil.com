@@ -24,6 +24,48 @@ footer {
   text-align: center;
 }
 
+.hide {
+  display: none !important;
+}
+
+// Modal Styles
+
+.modal {
+  &.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, .7);
+  }
+
+  &.container {
+    position: fixed;
+    max-width: 600px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: 0 0 5px black;
+  }
+
+  .header {
+    padding: 15px;
+    font-size: 18px;
+  }
+
+  .body {
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .footer {
+    padding: 0 15px;
+    text-align: right;
+  }
+}
+
 // Navbar Styles
 
 .navbar {
