@@ -528,6 +528,17 @@ footer {
 .modal .body {
   overflow: hidden;
   text-align: center; }
+  .modal .body .flag {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    transition: background-color .2s linear; }
+    .modal .body .flag:hover {
+      background-color: #f0f0f0; }
+    .modal .body .flag img {
+      height: 50px;
+      vertical-align: -70px; }
 .modal .footer {
   padding: 0 15px;
   text-align: right; }

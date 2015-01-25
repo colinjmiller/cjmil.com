@@ -58,6 +58,23 @@ footer {
   .body {
     overflow: hidden;
     text-align: center;
+
+    .flag {
+      display: inline-block;
+      width: 120px;
+      height: 120px;
+      border-radius: 60px;
+      transition: background-color .2s linear;
+
+      &:hover {
+        background-color: rgb(240, 240, 240);
+      }
+
+      img {
+        height: 50px;
+        vertical-align: -70px;
+      }
+    }
   }
 
   .footer {

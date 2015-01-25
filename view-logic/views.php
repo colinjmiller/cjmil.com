@@ -53,13 +53,13 @@ class View {
           </header>
           <div class="modal body row">
             <div class="six columns">
-              <a href="#" data-language="en">
-                <?= t('english') ?>
+              <a class="flag" href="#" data-language="en">
+                <img src="images/american_flag.svg" alt="<?= t('english') ?>" />
               </a>
             </div>
             <div class="six columns">
-              <a href="#" data-language="de">
-                <?= t('german') ?>
+              <a class="flag" href="#" data-language="de">
+                <img src="images/germany_flag.svg" alt="<?= t('german') ?>" />
               </a>
             </div>
           </div>
