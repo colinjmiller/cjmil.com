@@ -20,7 +20,7 @@ $(function() {
 
 	function changeLanguage(language) {
 		console.log("Changing language to " + language);
-		$.post('php/language.php', {
+		$.post('/php/language.php', {
 			language: language
 		}).done(function(data) {
 			window.location.reload(true);

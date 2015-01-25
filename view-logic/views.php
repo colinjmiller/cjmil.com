@@ -4,9 +4,9 @@ if (session_status() == PHP_SESSION_NONE) {
   session_start();
 }
 if (isset($_SESSION["language"]) && $_SESSION["language"] == "de") {
-  require_once('de.php');
+  require_once("{$_SERVER['DOCUMENT_ROOT']}/languages/de.php");
 } else {
-  require_once('en.php');
+  require_once("{$_SERVER['DOCUMENT_ROOT']}/languages/en.php");
 }
 
 class View {
@@ -21,9 +21,9 @@ class View {
         <meta name="author" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="icon" type="image/png" href="images/favicon.png" />
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="icon" type="image/png" href="/images/favicon.png" />
         <script type="text/javascript">
           var _gaq = _gaq || [];
           _gaq.push(['_setAccount', 'UA-24488311-7']);
@@ -35,7 +35,7 @@ class View {
           })();
         </script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script src="javascript/language.js"></script>
+        <script src="/javascript/language.js"></script>
       </head>
       <body>
     <?php
@@ -59,12 +59,12 @@ class View {
           <div class="modal body row">
             <div class="six columns">
               <a class="flag" href="#" data-language="en">
-                <img src="images/american_flag.svg" alt="<?= t('english') ?>" />
+                <img src="/images/american_flag.svg" alt="<?= t('english') ?>" />
               </a>
             </div>
             <div class="six columns">
               <a class="flag" href="#" data-language="de">
-                <img src="images/germany_flag.svg" alt="<?= t('german') ?>" />
+                <img src="/images/germany_flag.svg" alt="<?= t('german') ?>" />
               </a>
             </div>
           </div>
@@ -79,8 +79,8 @@ class View {
 
   public static function navigation_bar($selected = "") {
     $menu = array(
-      'home' => array('text' => 'Home', 'url' => '/'),
-      'projects' => array('text' => 'Projects', 'url' => '/projects.php'),
+      'home' => array('text' => 'Home', 'url' => "/"),
+      'projects' => array('text' => 'Projects', 'url' => '/projects/'),
       'resume' => array('text' => "R&eacute;sum&eacute;", 'url' => '/resume.pdf'), // Make this its own page
       'linkedin' => array('text' => 'LinkedIn', 'url' => 'http://www.linkedin.com/profile/view?id=273021207')
     );
@@ -88,7 +88,7 @@ class View {
     ?>
     <div class="container navbar">
       <h1>Colin J. Miller</h1>
-      <label for="mobile-nav"><img src="images/mobile_menu.svg" alt="Mobile Menu" /></label>
+      <label for="mobile-nav"><img src="/images/mobile_menu.svg" alt="Mobile Menu" /></label>
       <input type="checkbox" id="mobile-nav" />
       <div class="row">
         <?php

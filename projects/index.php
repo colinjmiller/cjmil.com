@@ -1,6 +1,6 @@
 <?php
 
-  require_once('view-logic/views.php');
+  require_once("{$_SERVER['DOCUMENT_ROOT']}/view-logic/views.php");
 
 ?>
 <?= View::header_logic("Projects") ?>
@@ -27,12 +27,12 @@
         <dd>The Journey is a web-based puzzle game I made that features ten levels of increasing difficulty. The user is encouraged to manipulate the URL, examine the source code, or do whatever is necessary to progress. I created this project before formally learning any web development, so the course code is atrocious. The game is currently broken on level 7 due to deprecated PHP function calls. I may revisit this project in the future, as I plan to release a sequal.</dd>
       </dl>
       <dl>
-        <dt><a href="projects/survive.exe">Survive</a></dt>
+        <dt><a href="/projects/survive.exe">Survive</a></dt>
         <dd class="creation-date">Created: Winter 2008</dd>
         <dd>Survive is a game I made as a 15-year-old using <a href="http://gamemaker.nl/">Gamemaker 7</a> during winter break. It features 2D platform-style gameplay and ten levels of varying difficulty as well as five secrets. This project was my first real "coding" project, in that I wrote the game using Gamemaker's built-in language, <a href="http://docs.yoyogames.com/source/dadiospice/002_reference/001_gml%20language%20overview/index.html">GML</a>, as opposed to Gamemaker's drag-and-drop coding system. This game only runs under Windows operating systems.</dd>
       </dl>
       <dl>
-        <dt><a href="projects/wtg3.exe">Willie The Ghost 3</a></dt>
+        <dt><a href="/projects/wtg3.exe">Willie The Ghost 3</a></dt>
         <dd class="creation-date">Created: April 2005</dd>
         <dd>I created Willie the Ghost 3 as a birthday present for a neighborhood friend and spent around a week developing it. Just like the prequel, I created the game in <a href="http://gamemaker.nl/">Gamemaker 6</a>, but tried community-made plug-ins to expand the capabilities of the engine. As an 11-year-old, I was ecstatic with the result and received one of the greatest compliments from a mutual friend as we played the game:
           <blockquote>I wouldn't rent this game from Blockbuster or anything, but this is actually a really great game, Colin!</blockquote>
@@ -40,7 +40,7 @@
         <dd><strong>Note: Only works on Windows XP and below</strong></dd>
       </dl>
       <dl>
-        <dt><a href="projects/wtg2-c.exe">Willie The Ghost 2</a> <a href="projects/wtg2-e.exe">(Easy Version)</a></dt>
+        <dt><a href="/projects/wtg2-c.exe">Willie The Ghost 2</a> <a href="projects/wtg2-e.exe">(Easy Version)</a></dt>
         <dd class="creation-date">Created: January 2005</dd>
         <dd>Willie the Ghost 2 is one of my first creations using <a href="http://gamemaker.nl/">Gamemaker 6</a>. This game engine, with its simple drag-and-drop interface, was a godsend to 11-year-old me and propelled me into the world of computer science. The prequel, now lost to time, had no plot and featured only a few levels. This game featured a limited plot and many more levels. I made two versions of this game; the original was impossibly difficult for anyone besides me, so I made an easier version. I have included both. This project taught the invaluable skill of thinking about how a user besides myself would use my projects.</dd>
         <dd><strong>Note: Only works on Windows XP and below</strong></dd>
@@ -55,7 +55,7 @@
         <dd>This sequal to the original is built with Ruby on Rails and has been a wonderful learning experience. I plan to include many more levels than the original and release the game in both English and German. Work on this project is sporadic because it's so creative; if I'm not in the right mind-set then I cannot make progress.</dd>
       </dl>
       <dl>
-        <dt><a href="portfolio.php">Honors Portfolio</a></dt>
+        <dt><a href="/portfolio/">Honors Portfolio</a></dt>
         <dd>As a member of the University of Washington's Honors College, I have to maintain a portfolio of my four years in school and write about my experiences, share class projects, and give advice to incoming freshmen. I will complete this project by Spring of 2015.</dd>
       </dl>
     </div>

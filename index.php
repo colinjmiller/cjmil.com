@@ -1,6 +1,6 @@
 <?php
 
-  require_once('view-logic/views.php');
+  require_once("{$_SERVER['DOCUMENT_ROOT']}/view-logic/views.php");
 
 ?>
 <?= View::header_logic("Home") ?>

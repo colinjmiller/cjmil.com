@@ -1,6 +1,6 @@
 <?php
 
-  require_once('view-logic/views.php');
+  require_once("{$_SERVER['DOCUMENT_ROOT']}/view-logic/views.php");
 
 ?>
 <?= View::header_logic("Honors Portfolio") ?>
@@ -9,7 +9,7 @@
       <nav class="row">
         <ul>
           <li class="three columns">
-            <a href="#">Freshman Year</a>
+            <a href="./freshman/">Freshman Year</a>
           </li>
           <li class="three columns">
             <a href="#">Sophomore Year</a>
@@ -34,7 +34,7 @@
       <p>
         <?= t('portfolio_p2') ?>
       </p>
-      <img id="learning-img" src="portfolio/areas.svg" alt="Areas of learning as I get older" />
+      <img id="learning-img" src="/portfolio/areas.svg" alt="Areas of learning as I get older" />
       <p>
         <?= t('portfolio_p3') ?>
       </p>
