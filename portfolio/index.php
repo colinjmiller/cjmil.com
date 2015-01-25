@@ -12,13 +12,13 @@
             <a href="./freshman/">Freshman Year</a>
           </li>
           <li class="three columns">
-            <a href="#">Sophomore Year</a>
+            <a href="./sophomore/">Sophomore Year</a>
           </li>
           <li class="three columns">
-            <a href="#">Junior Year</a>
+            <a href="./junior/">Junior Year</a>
           </li>
           <li class="three columns">
-            <a href="#">Senior Year</a>
+            <a href="./senior/">Senior Year</a>
           </li>
         </ul>
       </nav>
