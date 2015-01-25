@@ -3,6 +3,11 @@
 if (session_status() == PHP_SESSION_NONE) {
   session_start();
 }
+if (isset($_SESSION["language"]) && $_SESSION["language"] == "de") {
+  require_once('de.php');
+} else {
+  require_once('en.php');
+}
 
 class View {
   public static function header_logic($title = "cjmil.com") {
