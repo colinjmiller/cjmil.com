@@ -574,6 +574,11 @@ footer {
     margin-bottom: 0;
     clear: both; }
 
+.portfolio dt {
+  font-weight: bold; }
+.portfolio .klass img {
+  display: block;
+  margin: 1rem auto; }
 .portfolio #learning-img {
   display: block;
   margin: auto;
@@ -582,6 +587,8 @@ footer {
   margin-bottom: 2.5rem; }
 .portfolio nav ul {
   list-style: none; }
+  .portfolio nav ul li {
+    text-align: center; }
 
 /* Larger than mobile */
 /* Larger than phablet (also point when grid becomes active) */

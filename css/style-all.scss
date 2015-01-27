@@ -147,6 +147,15 @@ footer {
 // Portfolio Styles
 
 .portfolio {
+
+  dt {
+    font-weight: bold;
+  }
+
+  .klass img {
+    display: block;
+    margin: 1rem auto;
+  }
   
   #learning-img {
     display: block;
@@ -158,5 +167,9 @@ footer {
 
   nav ul {
     list-style: none;
+
+    li {
+      text-align: center;
+    }
   }
 }

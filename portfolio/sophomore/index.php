@@ -14,11 +14,11 @@
         received. However, I also began TAing introductory CSE courses this quarter and consider this one of the best decisions of my life at UW. Overall, the year was filled with ups and down and helped
         me become who I am today.
       </p>
-      <div class="quarter">
+      <section>
         <h3>Autumn Quarter, 2011</h3>
         <div class="klass">
           <?php include_once ('phys121.php') ?>
         </div>
-      </div>
+      </section>
     </div>
 <?= View::footer_logic() ?>

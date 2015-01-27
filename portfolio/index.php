@@ -8,17 +8,20 @@
     <div class="portfolio container">
       <nav class="row">
         <ul>
-          <li class="three columns">
-            <a href="./freshman/">Freshman Year</a>
+          <li class="two columns">
+            <a href="./freshman/">Freshman</a>
           </li>
-          <li class="three columns">
-            <a href="./sophomore/">Sophomore Year</a>
+          <li class="two columns">
+            <a href="./sophomore/">Sophomore</a>
           </li>
-          <li class="three columns">
-            <a href="./junior/">Junior Year</a>
+          <li class="two columns">
+            <a href="./junior/">Junior</a>
           </li>
-          <li class="three columns">
-            <a href="./senior/">Senior Year</a>
+          <li class="two columns">
+            <a href="./senior/">Senior</a>
+          </li>
+          <li class="four columns">
+            <a href="./experiential/">Experiential Learning</a>
           </li>
         </ul>
       </nav>
