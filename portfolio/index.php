@@ -7,6 +7,7 @@
   <?= View::navigation_bar("Projects") ?>
     <div class="portfolio container">
       <nav class="row">
+        <span>Portfolio Navigation</span>
         <ul>
           <li class="two columns">
             <a href="./freshman/">Freshman</a>
@@ -20,8 +21,11 @@
           <li class="two columns">
             <a href="./senior/">Senior</a>
           </li>
-          <li class="four columns">
-            <a href="./experiential/">Experiential Learning</a>
+          <li class="two columns">
+            <a href="./experiential/">Experiential</a>
+          </li>
+          <li class="two columns">
+            <a href="./about.php">Cool Tech</a>
           </li>
         </ul>
       </nav>

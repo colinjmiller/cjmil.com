@@ -3,7 +3,7 @@
   require_once("{$_SERVER['DOCUMENT_ROOT']}/view-logic/views.php");
 
 ?>
-<?= View::header_logic("Freshman Year | Honors Portfolio") ?>
+<?= View::header_logic("Sophomore Year | Honors Portfolio") ?>
   <?= View::navigation_bar("Projects") ?>
     <div class="container">
       <a href="..">Back</a>
@@ -15,9 +15,21 @@
         me become who I am today.
       </p>
       <section>
-        <h3>Autumn Quarter, 2011</h3>
+        <h3>Autumn Quarter, 2012</h3>
         <div class="klass">
           <?php include_once ('phys121.php') ?>
+        </div>
+      </section>
+      <section>
+        <h3>Winter Quarter, 2013</h3>
+        <div class="klass">
+          <?php include_once ('cse331.php') ?>
+        </div>
+      </section>
+      <section>
+        <h3>Spring Quarter, 2013</h3>
+        <div class="klass">
+          <?php include_once ('german250.php') ?>
         </div>
       </section>
     </div>
