@@ -72,7 +72,18 @@ function t($phrase) {
     'ta_teaching' => 'And so began my love affair with teaching. Every Tuesday (and Thursday, depending on the quarter), I led a 50-minute section devoted to some area of introductory computer science. Time seemed to pass twice as fast during these times; I loved the inquisative questions my louder students asked and enjoyed the challenge of getting the quieter ones to participate, too. Occasionally, questions would arise that challenged my very foundations; these were perhaps my favorite moments because everyone in the class would get something out of it, myself included.',
     'ta_community' => 'Besides the awesome students, the program had an outstanding community. At the time I joined, there were around 30 TAs. By my final quarter, this number had more than doubled. I joined the TA community with a handful of others and we quickly became good friends, grading together over weekends, comparing horror stories, and even hosting TA parties. We all got to experience tutoring students in the Introductory Programming Lab, proctoring and grading exams for an entire day that ended at 2 AM, and answering student e-mails. If we ran into a difficult situation, we could always reach out to anyone else in the community.',
     'ta_positions' => 'I have worked in the TA community for eight quarters now and have gotten to experience a lot of different positions, from a junior TA in my first quarter, to an undergraduate Head TA in my fourth, and now as a TA Tools Developer working behind the scenes.',
-    'ta_artifact' => 'As an artifact of this experience, I have included a portion of the review sheet from my final quarter of leading a section. I am very proud of these evaluations.'
+    'ta_artifact' => 'As an artifact of this experience, I have included a portion of the review sheet from my final quarter of leading a section. I am very proud of these evaluations.',
+
+    # Cool Tech
+
+    'cool_tech_title' => 'Die Technologie in diesem Portfolio',
+    'cool_tech_intro' => 'Dieses Portfolio ist nicht nur ein Ausdruck von meiner Zeit an der Uni. Es ist auch ein Spielplatz, in dem ich neue Technologien benutzen kann. Hier sind ein paar Technologien, die ich in diesem Portfolio benutzt haben:',
+    'mobile_first_title' => 'Für Mobile und Desktop gebaut',
+    'mobile_first_description' => "Ich wollte dieses Portfolio eine wunderbare Erfahrung zu sein, egal wie man es anschaut. Wenn Sie auf einen Computer sind, verkleinern Sie das Browserfenster and diese Website wird noch gut aussehen!",
+    'sharp_images_title' => 'Scharfe Bilder, egal die Vergrößerungsstufe',
+    'sharp_images_description' => 'Wo moeglich habe ich Scalable Vector Graphic (SVG) Bilder benutzt, denn sie sehen gut auf jedem Gerät. Sie werden von dem Browser gezeichnet, anstatt stillstehend. Das meint, sie sehen immer gut aus, egal die Vergrößerungsstufe.',
+    'translation_title' => 'Selbstgemachte Übersetzungen',
+    'translation_description' => "Um Überschuss abzuwenden, habe ich mein eigenes Übersetzungssystem mit Inspiration von Rubys i18n System gemacht. Im Hintergrund haben Übersetzungunterlagen den Text fuer die ganze Website auf Englisch und Deutsch. Abhängend von den Einstellungen der Benutzters entscheidet den Server, was auf der Seite gesteckt werden soll. Um Leistung zu verbessern sind diese Übersetzungunterlagen gecached."
   );
   return (array_key_exists($phrase, $lang)) ? $lang[$phrase] : $phrase;
 }

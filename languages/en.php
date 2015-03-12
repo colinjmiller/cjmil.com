@@ -72,7 +72,18 @@ function t($phrase) {
     'ta_teaching' => 'And so began my love affair with teaching. Every Tuesday (and Thursday, depending on the quarter), I led a 50-minute section devoted to some area of introductory computer science. Time seemed to pass twice as fast during these times; I loved the inquisative questions my louder students asked and enjoyed the challenge of getting the quieter ones to participate, too. Occasionally, questions would arise that challenged my very foundations; these were perhaps my favorite moments because everyone in the class would get something out of it, myself included.',
     'ta_community' => 'Besides the awesome students, the program had an outstanding community. At the time I joined, there were around 30 TAs. By my final quarter, this number had more than doubled. I joined the TA community with a handful of others and we quickly became good friends, grading together over weekends, comparing horror stories, and even hosting TA parties. We all got to experience tutoring students in the Introductory Programming Lab, proctoring and grading exams for an entire day that ended at 2 AM, and answering student e-mails. If we ran into a difficult situation, we could always reach out to anyone else in the community.',
     'ta_positions' => 'I have worked in the TA community for eight quarters now and have gotten to experience a lot of different positions, from a junior TA in my first quarter, to an undergraduate Head TA in my fourth, and now as a TA Tools Developer working behind the scenes.',
-    'ta_artifact' => 'As an artifact of this experience, I have included a portion of the review sheet from my final quarter of leading a section. I am very proud of these evaluations.'
+    'ta_artifact' => 'As an artifact of this experience, I have included a portion of the review sheet from my final quarter of leading a section. I am very proud of these evaluations.',
+
+    # Cool Tech
+
+    'cool_tech_title' => 'The Cool Tech in this Portfolio',
+    'cool_tech_intro' => 'This portfolio is not only an expression of my time at the UW, it is also a playground for technologies that I wanted to try. Here are a few of the cool technologies that I played around with while creating this portfolio:',
+    'mobile_first_title' => 'Mobile First Responsive Design',
+    'mobile_first_description' => "I designed this portfolio to be a great experience, no matter how you're viewing it. If you on a computer, try scrunching the browser window a bit and you'll see that it's still a great user experience!",
+    'sharp_images_title' => 'Sharp Images at Every Level',
+    'sharp_images_description' => 'Where possible, I have used Scalable Vector Graphics (SVG) images to ensure they look good on all devices and zoom levels. SVG graphics are drawn by the browser instead of being a static image. This means that no matter how far you zoom in, the edges will always appear sharp and beautiful.',
+    'translation_title' => 'Home-brewed Translation',
+    'translation_description' => "To avoid bloat, I opted to spin up my own translation system using inspiration from Ruby's i18n system. Behind the scenes, translation documents contain the text of everything on the website in either English or German. Depending on the user's preferences, the server will grab the right document and inject the text in all the right places. To improve performance, these translation documents are cached after the first pass, avoiding expensive network calls."
   );
   return (array_key_exists($phrase, $lang)) ? $lang[$phrase] : $phrase;
 }
