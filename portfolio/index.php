@@ -7,25 +7,25 @@
   <?= View::navigation_bar("Projects") ?>
     <div class="portfolio container">
       <nav class="row">
-        <span>Portfolio Navigation</span>
+        <span><?= t('portfolio_navigation') ?></span>
         <ul>
           <li class="two columns">
-            <a href="./freshman/">Freshman</a>
+            <a href="./freshman/"><?= t('freshman') ?></a>
           </li>
           <li class="two columns">
-            <a href="./sophomore/">Sophomore</a>
+            <a href="./sophomore/"><?= t('sophomore') ?></a>
           </li>
           <li class="two columns">
-            <a href="./junior/">Junior</a>
+            <a href="./junior/"><?= t('junior') ?></a>
           </li>
           <li class="two columns">
-            <a href="./senior/">Senior</a>
+            <a href="./senior/"><?= t('senior') ?></a>
           </li>
           <li class="two columns">
-            <a href="./experiential/">Experiential</a>
+            <a href="./experiential/"><?= t('experiential_learning') ?></a>
           </li>
           <li class="two columns">
-            <a href="./about.php">Cool Tech</a>
+            <a href="./about.php"><?= t('cool_tech') ?></a>
           </li>
         </ul>
       </nav>
@@ -50,9 +50,6 @@
       </p>
       <p>
         <?= t('portfolio_p5') ?>
-      </p>
-      <p>
-        <?= t('portfolio_p6') ?>
       </p>
     </div>
 <?= View::footer_logic() ?>

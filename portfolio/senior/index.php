@@ -6,10 +6,10 @@
 <?= View::header_logic("Senior Year | Honors Portfolio") ?>
   <?= View::navigation_bar("Projects") ?>
     <div class="portfolio container">
-      <a href="..">Back</a>
+      <a href=".."><?= t('back') ?></a>
       <h2>Senior Year</h2>
       <p>
-        Senior Year Summation
+        My senior year is still in progress, but I am excited to finish my undergraduate life and move into the real world. I am fortunate that my passion, computer science, afforded me a great job right out of school and am excited to make an impact as a software engineer at Whitepages. As I move from academia to industry, I will keep my mind open.
       </p>
       <section>
         <h3>Autumn Quarter, 2014</h3>

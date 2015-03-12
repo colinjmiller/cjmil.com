@@ -26,4 +26,8 @@ $(function() {
 			window.location.reload(true);
 		});
 	}
+
+	$(".portfolio section").on("click", function() {
+		$(this).toggleClass("expanded");
+	});
 });

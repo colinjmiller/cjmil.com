@@ -5,8 +5,8 @@
 ?>
 <?= View::header_logic("Junior Year | Honors Portfolio") ?>
   <?= View::navigation_bar("Projects") ?>
-    <div class="container">
-      <a href="..">Back</a>
+    <div class="portfolio container">
+      <a href=".."><?= t('back') ?></a>
       <h2>Junior Year</h2>
       <p>
         My junior year was the most intense year of academics that I have ever experienced. I took a total of six CSE classes this year and formed a great friend group around the difficulties and struggles we faced. I faced my greatest struggle in the Spring: 12 credits of straight CSE along with a part-time gig as 154 TA and TA Tools Developer. During this time, I suffered from serious sleep deprivation, constant stress, and the emotional trauma of thinking I was failing my teammates. By my standards, I do not emote often, but this quarter was the first time I became truly frustrated and upset with myself.

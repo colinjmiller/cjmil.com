@@ -5,13 +5,13 @@
 ?>
 <?= View::header_logic("Tech | Honors Portfolio") ?>
   <?= View::navigation_bar("Projects") ?>
-    <div class="container">
+    <div class="portfolio container">
       <a href="..">Back</a>
       <h2>The Cool Tech in this Portfolio</h2>
       <p>
-        This portfolio is not only an expression of my time at the UW, it is also a playground for technologies that I wanted to try.
+        This portfolio is not only an expression of my time at the UW, it is also a playground for technologies that I wanted to try. Here are a few of the cool technologies that I played around with while creating this portfolio:
       </p>
-      <h3>Totally Responsive: Mobile First</h3>
+      <h3>Mobile First Responsive Design</h3>
       <p>I designed this portfolio to be a great experience, no matter how you're viewing it. If you on a computer, try scrunching the browser window a bit and you'll see that it's still a great user experience!</p>
       <h3>Sharp Images at Every Level</h3>
       <p>Where possible, I have used SVG images to ensure they look good on all devices and zoom levels. SVG graphics are drawn by the browser instead of being a static image. This means that no matter how far you zoom in, the edges will always appear sharp and beautiful.</p>

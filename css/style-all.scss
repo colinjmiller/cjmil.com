@@ -172,4 +172,27 @@ footer {
       text-align: center;
     }
   }
+
+  section {
+
+    border: 1px solid $border-color;
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #eeeeee;
+    }
+
+    .klass {
+      display: none;
+    }
+
+    &.expanded {
+      .klass {
+        display: block;
+      }
+    }
+  }
 }

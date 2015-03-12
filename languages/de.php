@@ -1,15 +1,23 @@
 <?php
 function t($phrase) {
   static $lang = array(
+    'portfolio_navigation' => 'Portfoliosnavigation',
+    'freshman' => 'Studienanfänger',
+    'sophomore' => '2. Studienjahr',
+    'junior' => '3. Studienjahr',
+    'senior' => 'Oberstufenschüler',
+    'experiential_learning' => 'Erfahrungen',
+    'cool_tech' => 'Technologie',
+    'back' => 'Zurück',
+
     'portfolio_statement_title' => 'Ständiges Lernen',
-    'portfolio_p1' => 'Lernen wird eine große Rolle in den letzten 16 Jahren gespielt. Als ich fünf bis dreizehn war, lernte ich alles zu Hause von meiner Mutter. Nach der achten Klasse, ging ich zur Highschool. Beim Eintragen der Universität, glaubte ich, dass das Lernen fast zum Schluss wäre.',
+    'portfolio_p1' => 'Lernen spielt eine große Rolle in den letzten 16 Jahren. Als ich fünf bis dreizehn war, lernte ich alles zu Hause mit meiner Mutter. Nach der achten Klasse, ging ich zur Highschool. Beim Eintragen der Universität, glaubte ich, dass das Lernen fast zum Schluss wäre.',
     'portfolio_p2' => 'Das trifft nicht zu; ich lerne jetzt und immer.',
-    'portfolio_p3' => 'Software-Entwicklung ist eine einschüchternde Sparte. Meine Mitarbeiter sind erfahrener als mich und programmiern schönen Code den ganzen Tag. Trotdem finden sie noch Zeit, um mich zu lehren. Jeden Tag lerne ich mindestens fünf neue Dinge.',
-    'portfolio_p4' => "Reflecting on that, I'd rather learn five new things each day and feel a little overwhelmed, rather than not learn anything at all. That's where <em>A Constant State of Learning</em> comes into play. A reddit user once asked the question,
+    'portfolio_p3' => 'Software-Entwicklung ist eine einschüchternde Sparte. Meine Mitarbeiter sind erfahrener als mich und programmieren schönen Code den ganzen Tag. Trotzdem finden sie noch Zeit, mir zu helfen. Jeder Tag lerne ich mindestens fünf neue Dinge.',
+    'portfolio_p4' => "Ich moechte lieber jeden Tag fuenf neue Dinge lernen und mich ein bisschen überfordert fuehlen, anstatt nichts Neues lernen. Deshalb ist <em>Ständiges Lerneng</em> wichtig. Ein Mitglied von Reddit hat einmal gefragt,
         <q>When does the change from, 'This is complicated, I better figure it out!' to 'This is complicated, YOU figure it out!' happen?</q>
-        My goal in life is to never make that switch.",
-    'portfolio_p5' => 'This portfolio is a culmination of my experiences at the University of Washington. Through it, I wish to reflect on my past so that I can better my future. I began this portfolio in late 2011 and, for the first few quarters, wrote descriptions of every class I took. However, the things I wrote have caused my present self to cringe, so I have opted to disclude many of those samples and edit those that remain. For posterity, <a href="http://cjmil.com/old/">here\'s a link to the older, more cringey me</a>, complete with a web design from 2012.',
-    'portfolio_p6' => "If I'm being realistic with myself, I will look back on the things I wrote here and cringe again when I'm more mature.",
+        Um mein Ziel zu erreichen, muss ich diese Frage nie fragen.",
+    'portfolio_p5' => 'Dieses Portfolio is ein Anhäufung meiner Erfahrungen an der Univesitaet Washingtons. Dadurch denke ich an meiner Vergangenheit nach, um meine Zukunft zu verbessern. Wenn Sie fuer meine Vergangenheit interessieren, koennen Sie mein erstes Portfolio <a href="http://cjmil.com/old/">hier</a> finden.',
     'switch_language' => 'Sprache ändern',
     'choose_language' => 'Bitte wählen Sie eine Sprache',
     'english' => 'Englisch',
@@ -17,12 +25,12 @@ function t($phrase) {
 
     # Freshman Year
 
-    'freshman_year' => 'Freshman Year',
-    'freshman_year_summary' => 'Coming across the country from Virginia, the beginning of a new school and new life excited me. I had a limited selection of classes due to taking the last available orientation session, but thorougly enjoyed Dawg Daze and made hundreds of new friends. This was a year of many firsts for me: First girlfriend, first sip of alcohol, and first slap in the face as I realized that grades in college were much harder to maintain than high school. From each quarter, I have picked a class that I felt impacted me in some way.',
+    'freshman_year' => 'Studienanfänger',
+    'freshman_year_summary' => 'Ich kam aus Virginia und war begeistert von einer neuen Schule und einem neuen Laben. Es gab nicht viele moegliche Klassen, denn ich kam ganz spaet an die Uni, aber ich hatte gern Dawg Daze und machte fast hundert Freuden. In diesem Jahr hatte ich viele neue Erfahrungen: Meine erste Freundin, erster Geschmack von Alkohol, und erste Ueberaschung ueber Noten, weil sie an die Uni viel schwerer als Highschool waren. An dieser Seite wählte ich eine Klasse von jedem Quartal, die mich wirklich betroffen hat.',
 
-    'freshman_autumn' => 'Autumn Quarter, 2011',
-    'freshman_winter' => 'Winter Quarter, 2012',
-    'freshman_spring' => 'Spring Quarter, 2012',
+    'freshman_autumn' => 'Herbstquartal, 2011',
+    'freshman_winter' => 'Winterquartal, 2012',
+    'freshman_spring' => 'Frühlingsquartal, 2012',
 
     'soc_247_title' => 'Sociology 247: Introduction to Social Movements',
     'soc_247_intro' => 'I took this class because I was limited on options and it sounded interesting. It was an interesting class, but everything was overshadowed by my naivety.',
