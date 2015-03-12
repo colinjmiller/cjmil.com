@@ -6,7 +6,7 @@
 <?= View::header_logic("Tech | Honors Portfolio") ?>
   <?= View::navigation_bar("Projects") ?>
     <div class="portfolio container">
-      <a href="..">Back</a>
+      <a href="index.php">Back</a>
       <h2>The Cool Tech in this Portfolio</h2>
       <p>
         This portfolio is not only an expression of my time at the UW, it is also a playground for technologies that I wanted to try. Here are a few of the cool technologies that I played around with while creating this portfolio:
