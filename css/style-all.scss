@@ -2,6 +2,10 @@ blockquote {
   font-style: italic;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 #colin-pic {
   display: block;
   margin: auto;
@@ -99,9 +103,15 @@ footer {
     width: 100%;
   }
 
-  h1 {
+  .banner {
     float: left;
-    margin: 10px;
+    margin-left: 5px;
+
+    a {
+      color: $font-color;
+      font-size: 4rem;
+      text-decoration: none;
+    }
   }
 
   label {

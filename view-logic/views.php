@@ -15,7 +15,7 @@ class View {
       <head>
         <meta charset="utf-8">
         <title><?= $title ?> | Colin J. Miller</title>
-        <meta name="description" content="cjmil.com houses the work of Colin J. Miller, a computer scientist from the Seattle area">
+        <meta name="description" content="cjmil.com houses the work of Colin J. Miller, a computer scientist and web developer from the Seattle area">
         <meta name="author" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
@@ -77,15 +77,17 @@ class View {
 
   public static function navigation_bar($selected = "") {
     $menu = array(
-      'home' => array('text' => 'Home', 'url' => "/"),
-      'projects' => array('text' => 'Projects', 'url' => '/projects/'),
-      'resume' => array('text' => "R&eacute;sum&eacute;", 'url' => '/resume.pdf'), // Make this its own page
-      'linkedin' => array('text' => 'LinkedIn', 'url' => 'http://www.linkedin.com/profile/view?id=273021207')
+      'home' => array('text' => t('home'), 'url' => "/"),
+      'projects' => array('text' => t('projects'), 'url' => '/projects/'),
+      'resume' => array('text' => t('resume'), 'url' => '/resume.pdf'), // Make this its own page
+      'linkedin' => array('text' => t('linkedin'), 'url' => 'http://www.linkedin.com/profile/view?id=273021207')
     );
 
     ?>
     <div class="container navbar">
-      <h1>Colin J. Miller</h1>
+      <div class="banner">
+        <a href="/">cjmil.com</a>
+      </div>
       <label for="mobile-nav"><img src="/images/mobile_menu.svg" alt="Mobile Menu" /></label>
       <input type="checkbox" id="mobile-nav" />
       <div class="row">

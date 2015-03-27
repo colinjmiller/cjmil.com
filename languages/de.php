@@ -1,6 +1,16 @@
 <?php
 function t($phrase) {
   static $lang = array(
+
+    # Website navigation
+
+    'home' => 'Startseite',
+    'projects' => 'Projekte',
+    'resume' => 'Lebenslauf',
+    'linkedin' => 'LinkedIn',
+
+    # Portfolio navigation
+
     'portfolio_navigation' => 'Portfoliosnavigation',
     'freshman' => 'Studienanfänger',
     'sophomore' => '2. Studienjahr',
@@ -9,6 +19,14 @@ function t($phrase) {
     'experiential_learning' => 'Erfahrungen',
     'cool_tech' => 'Technologie',
     'back' => 'Zurück',
+
+    # /
+
+    'home_hi' => "Hallo, ich bin Colin Miller.",
+    'home_about_me' => "Ich wohne in Seattle, WA und besuche die Universität Washingtons, an der ich Computerwissenschaft als Hauptfach und Deutsch als Nebenfach studiere. Ich bin im letzten Jahr an der Universität und freue mich auf das Ende der Schule, das am 15. Juni, 2015 passiert. Ich arbeite halbtags als Webentwikler mit dem CoreSite Team bei der Firma <a href=\"http://www.whitepages.com/\" target=\"_blank\">Whitepages.com</a>, eine Identitätfirma, die in der Stadtmitte Seattle existiert. In meiner Freizeit genieße ich das Lernen von neuen Webtechnologien und das Arbeiten auf persönliche Projekte.",
+    'home_about_site' => "Das bauen von cjmil.com fing nach einer Webentwicklungsklasse in 2012 an. Zuerst benutzte ich diese Website als ein Heim für mein Honors Portfolio. Seitdem gibt es meinen persönlichen Projekte ein Heim. Bitten Entschuldigen Sie mein Deutsch; ich bin noch nicht fließend. Die Übersetzungen in dieser Website werden ganz oft falsch, aber mein wichtiges Ziel ist Lernen!",
+
+    # Portfolio
 
     'portfolio_statement_title' => 'Ständiges Lernen',
     'portfolio_p1' => 'Lernen spielt eine große Rolle in den letzten 16 Jahren. Als ich fünf bis dreizehn war, lernte ich alles zu Hause mit meiner Mutter. Nach der achten Klasse, ging ich zur Highschool. Beim Eintragen der Universität, glaubte ich, dass das Lernen fast zum Schluss wäre.',
