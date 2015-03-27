@@ -11,7 +11,7 @@ class View {
   public static function header_logic($title = "cjmil.com") {
     ?>
     <!DOCTYPE html>
-    <html lang="en">
+    <html lang="<?= t('lang') ?>">
       <head>
         <meta charset="utf-8">
         <title><?= $title ?> | Colin J. Miller</title>

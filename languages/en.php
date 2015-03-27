@@ -2,6 +2,8 @@
 function t($phrase) {
   static $lang = array(
 
+    'lang' => 'en',
+
     # Website navigation
 
     'home' => 'Home',
