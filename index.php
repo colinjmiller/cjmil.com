@@ -6,7 +6,7 @@
 <?= View::header_logic("Home") ?>
   <?= View::navigation_bar("Home") ?>
     <div class="container">
-      <img id="colin-pic" class="u-light-margin" src="images/colin.jpg" alt="Picture of Colin Miller" />
+      <img class="main-img u-light-margin" src="images/colin.jpg" alt="Picture of Colin Miller" />
       <div class="content-column">
         <h1><?= t('home_hi') ?></h1>
         <p>

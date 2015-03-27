@@ -489,11 +489,6 @@ blockquote {
 body {
   overflow-x: hidden; }
 
-#colin-pic {
-  display: block;
-  margin: auto;
-  margin-bottom: 10px; }
-
 .caret-right {
   width: 0;
   height: 0;
@@ -509,6 +504,11 @@ footer {
 
 .hide {
   display: none !important; }
+
+.main-img {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px; }
 
 .modal.backdrop {
   position: fixed;
@@ -613,10 +613,6 @@ footer {
 /* Larger than phablet (also point when grid becomes active) */
 /* Larger than tablet */
 @media (min-width: 750px) {
-  #colin-pic {
-    float: left;
-    margin-right: 10px; }
-
   .content-column {
     float: left;
     width: calc(100% - 260px); }
@@ -627,6 +623,10 @@ footer {
     border-top: 7px solid transparent;
     border-bottom: 7px solid transparent;
     border-left: 7px solid black; }
+
+  .main-img {
+    float: left;
+    margin-right: 10px; }
 
   .navbar label {
     display: none; }

@@ -6,12 +6,6 @@ body {
   overflow-x: hidden;
 }
 
-#colin-pic {
-  display: block;
-  margin: auto;
-  margin-bottom: 10px;
-}
-
 .caret-right {
   width: 0;
   height: 0;
@@ -30,6 +24,12 @@ footer {
 
 .hide {
   display: none !important;
+}
+
+.main-img {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
 }
 
 // Modal Styles

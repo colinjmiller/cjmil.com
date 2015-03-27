@@ -51,6 +51,10 @@
       </dl>
       <h3>Current Projects</h3>
       <dl>
+        <dt><a href="https://chrome.google.com/webstore/detail/deutschify/eblnnhppihhlgjakpchalkikbegdmild" target="_blank">Deutschify!</a></dt>
+        <dd>Deutschify is a browser extension for Google Chrome that provides immediate translations from German to English and English to German. It's powered by the <a href="https://en.glosbe.com/a-api" target="_blank">Glosbe API</a>. I created it to solve several personal problems: Navigating to a new site for translation, grammar rules, or verb conjugations is tedious, and t's frustrating to not have constant access to German special characters. I have solved 2/4 of these problems so far and am confident I can solve the rest shortly.</dd>
+      </dl>
+      <dl>
         <dt>Nuclear Diplomacy</dt>
         <dd>This is a 2D tower-defense game created using <a href="http://unity3d.com/" target="_blank">Unity</a>, a powerful game engine with a large community. Our three-person team has been working slowly but steadily. Since we all lead busy lives, we put in work where we can; I'm hoping to release the game before 2016.</dd>
       </dl>

@@ -1,8 +1,3 @@
-#colin-pic {
-  float: left;
-  margin-right: 10px;
-}
-
 .content-column {
   float: left;
   width: calc(100% - 260px);
@@ -14,6 +9,11 @@
   border-top: 7px solid transparent;
   border-bottom: 7px solid transparent;
   border-left: 7px solid black;
+}
+
+.main-img {
+  float: left;
+  margin-right: 10px;
 }
 
 .navbar {
