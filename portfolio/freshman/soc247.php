@@ -1,4 +1,4 @@
-<h4>Sociology 247: Introduction to Social Movements</h4>
+<h3>Sociology 247: Introduction to Social Movements</h3>
 <p>I took this class because I was limited on options and it sounded interesting. It was an interesting class, but everything was overshadowed by my naivety.</p>
 <p>On October 16th, just a few weeks into the quarter, I went to Italy for a week on a scholarship. I had told my professors I would be gone, and they all wished me well on the trip. When I returned, I had a lot of make-up work to complete, but I was glad I had gone on the trip. I had taken hundreds of pictures and my professor in this class was especially interested in the trip. Since his last name was obviously Italian, I didn't think it was weird that he wanted to meet up for coffee at a café so I could show him the pictures from the trip.</p>
 <p>We sat for around two hours and talked. I thought it was great; I had always been told to get to know faculty members, and here I was, talking with my professor about something unrelated to school! When the meeting was over, we parted ways and I thought that was it. However, that's when he began texting me.</p>

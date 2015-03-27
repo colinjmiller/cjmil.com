@@ -1,4 +1,4 @@
-<h4>Honors 230A: Geographies of Peace and Violence</h4>
+<h3>Honors 230A: Geographies of Peace and Violence</h3>
 <p>
   This class taught me a lot of important ideas about social welfare, but it was a foreign experience for me. After being accustomed to problem sets with definite answers, it was hard
   to adjust to emotions and a lack of definitive answers.
@@ -8,7 +8,7 @@
   Honor Portfolio submission. The documentary is downloadable, but it's quite hefty (455MB).
 </p>
 <div class="container">
-  <h5>Prison Camps &amp; Defectors: A Documentary</h5>
+  <h4>Prison Camps &amp; Defectors: A Documentary</h4>
   <img src="/images/pigeon.jpg" alt="Sketch of pigeon torture in North Korean prison camp" />
   <p>
     The sketch shown here was drawn by Kwang-il, a former North Korean political prisoner. It depicts what Kwang-il calls "Pigeon Torture." In his own words:

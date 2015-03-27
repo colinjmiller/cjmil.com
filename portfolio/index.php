@@ -29,7 +29,7 @@
           </li>
         </ul>
       </nav>
-      <h2><?= t('portfolio_statement_title') ?></h2>
+      <h1><?= t('portfolio_statement_title') ?></h1>
       <p>
         <code>
           public final boolean LEARNING = true;

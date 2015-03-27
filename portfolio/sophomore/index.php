@@ -7,7 +7,7 @@
   <?= View::navigation_bar("Projects") ?>
     <div class="portfolio container">
       <a href=".."><?= t('back') ?></a>
-      <h2>Sophomore Year</h2>
+      <h1>Sophomore Year</h1>
       <p>
         After living with over 100 friends on the Honors floor of Lander 8, it was hard to move to another dorm. However, fears of loneliness subsided when the year began; I roomed with one of my closest
         friends, Nick Reiter. We became especially close this year and still are to this day. Class-wise, sophomore year was academically disappointing, yielding the lowest grades I have ever
@@ -15,19 +15,19 @@
         me become who I am today.
       </p>
       <section>
-        <h3>Autumn Quarter, 2012</h3>
+        <h2>Autumn Quarter, 2012</h2>
         <div class="klass">
           <?php include_once ('phys121.php') ?>
         </div>
       </section>
       <section>
-        <h3>Winter Quarter, 2013</h3>
+        <h2>Winter Quarter, 2013</h2>
         <div class="klass">
           <?php include_once ('cse331.php') ?>
         </div>
       </section>
       <section>
-        <h3>Spring Quarter, 2013</h3>
+        <h2>Spring Quarter, 2013</h2>
         <div class="klass">
           <?php include_once ('german250.php') ?>
         </div>

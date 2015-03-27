@@ -1,4 +1,4 @@
-<h4>Math 126: Calculus III</h4>
+<h3>Math 126: Calculus III</h3>
 <p>After acing a very difficult quarter with Math 125, I thought I could take anything the calculus series would throw at me. For the most part, I did well. I had a lot of trouble visualizing 3D math and still have trouble remembering what taking the dot product or cross product of vectors gives me.</p>
 <p>Our lecturer was very particular on day one that she must be addressed as doctor, because she had worked much too hard to be called anything else. She also laid out some other rules, such as no cell phone use, no talking to classmates, and sleeping was discouraged. It reminded me of high school.</p>
 <p>The homework was easier than in Math 125, but I found myself being confused by elementary concepts of the class and it worried me. Nonetheless, I got a 96 on both midterms in the class and I felt assured of a good grade overall.</p>

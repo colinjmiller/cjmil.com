@@ -1,2 +1,2 @@
-<h4>German 322: Cultural Studies</h4>
+<h3>German 322: Cultural Studies</h3>
 <p>German 322 accelerated my German skills unlike any class before. The syllabus required a close reading of four novels over the course of the quarter and my professor would call out anyone in class who was not keeping up with the schedule. Therefore, I was diligent about keeping up and writing notes as I read. This class was the first time I ever read a German book cover-to-cover. My ability to read German was around five times slower than English, but the process taught me that I CAN do it.</p>
