@@ -496,6 +496,9 @@ body {
   border-bottom: 5px solid transparent;
   border-left: 5px solid black; }
 
+.clear {
+  clear: both; }
+
 .creation-date {
   font-style: italic; }
 
@@ -509,6 +512,20 @@ footer {
   display: block;
   margin: auto;
   margin-bottom: 10px; }
+
+.mobile-menu h1 {
+  font-size: 4.5rem;
+  margin-bottom: 0; }
+.mobile-menu h2 {
+  font-size: 3rem; }
+.mobile-menu .mobile-menu-example {
+  display: none;
+  text-align: center; }
+  .mobile-menu .mobile-menu-example h3 {
+    text-align: left; }
+  .mobile-menu .mobile-menu-example img {
+    width: 600px;
+    border: 2px solid black; }
 
 .modal.backdrop {
   position: fixed;
@@ -627,6 +644,9 @@ footer {
   .main-img {
     float: left;
     margin-right: 10px; }
+
+  .mobile-menu .mobile-menu-example {
+    display: block; }
 
   .navbar label {
     display: none; }
