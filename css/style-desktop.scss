@@ -24,6 +24,13 @@
 
 .navbar {
 
+  position: relative;
+  z-index: auto;
+
+  + .container {
+    padding-top: initial;
+  }
+
   label {
     display: none;
   }

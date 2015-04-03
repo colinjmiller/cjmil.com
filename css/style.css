@@ -565,7 +565,11 @@ footer {
 .navbar {
   background-color: white;
   border-bottom: 1px solid black;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  position: fixed;
+  z-index: 1; }
+  .navbar + .container {
+    padding-top: 80px; }
   .navbar .caret-right {
     display: none; }
   .navbar.container {
@@ -652,11 +656,16 @@ footer {
   .mobile-menu .mobile-menu-example {
     display: block; }
 
-  .navbar label {
-    display: none; }
-  .navbar .navbar-item {
-    display: block;
-    font-size: 20px; } }
+  .navbar {
+    position: relative;
+    z-index: auto; }
+    .navbar + .container {
+      padding-top: initial; }
+    .navbar label {
+      display: none; }
+    .navbar .navbar-item {
+      display: block;
+      font-size: 20px; } }
 /* Larger than desktop */
 /* Larger than Desktop HD */
 

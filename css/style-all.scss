@@ -124,6 +124,12 @@ footer {
   background-color: white;
   border-bottom: 1px solid black;
   margin-bottom: 10px;
+  position: fixed;
+  z-index: 1;
+
+  + .container {
+    padding-top: 80px;
+  }
 
   .caret-right {
     display: none;
