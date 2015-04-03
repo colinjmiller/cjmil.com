@@ -50,14 +50,13 @@ footer {
 
   .mobile-menu-example {
     display: none;
+  }
+
+  figure {
     text-align: center;
 
-    h3 {
-      text-align: left;
-    }
-
     img {
-      width: 600px;
+      max-width: 100%;
       border: 2px solid black;
     }
   }
@@ -155,8 +154,7 @@ footer {
 
   #mobile-nav {
 
-    width: 0;
-    height: 0;
+    transform: scale(0); 
 
     &:focus + label {
       border-color: black;
