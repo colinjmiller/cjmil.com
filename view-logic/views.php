@@ -79,7 +79,7 @@ class View {
     $menu = array(
       'home' => array('text' => t('home'), 'url' => "/"),
       'projects' => array('text' => t('projects'), 'url' => '/projects/'),
-      'resume' => array('text' => t('resume'), 'url' => '/resume.pdf'), // Make this its own page
+      'writing' => array('text' => t('writing'), 'url' => '/writing'),
       'linkedin' => array('text' => t('linkedin'), 'url' => 'http://www.linkedin.com/profile/view?id=273021207')
     );
 

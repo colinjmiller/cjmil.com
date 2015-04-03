@@ -3,8 +3,8 @@
   require_once("{$_SERVER['DOCUMENT_ROOT']}/view-logic/views.php");
 
 ?>
-<?= View::header_logic("Home") ?>
-  <?= View::navigation_bar("Home") ?>
+<?= View::header_logic("Sage Advice") ?>
+  <?= View::navigation_bar("Writing") ?>
     <div class="container">
       <img class="main-img u-light-margin" src="/images/sage/sage_wave.svg" alt="Sage Waving" />
       <div class="content-column">

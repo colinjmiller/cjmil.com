@@ -8,7 +8,7 @@ function t($phrase) {
 
     'home' => 'Home',
     'projects' => 'Projects',
-    'resume' => "R&eacute;sum&eacute;",
+    'writing' => "Writing",
     'linkedin' => 'LinkedIn',
 
     # Portfolio navigation

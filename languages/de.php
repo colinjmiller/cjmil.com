@@ -8,7 +8,7 @@ function t($phrase) {
 
     'home' => 'Startseite',
     'projects' => 'Projekte',
-    'resume' => 'Lebenslauf',
+    'writing' => 'Schriften',
     'linkedin' => 'LinkedIn',
 
     # Portfolio navigation
