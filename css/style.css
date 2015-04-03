@@ -580,9 +580,15 @@ footer {
       text-decoration: none; }
   .navbar label {
     margin: 20px 25px 0 0;
+    padding: 1px;
+    box-sizing: border-box;
+    border: 1px dotted transparent;
     float: right; }
   .navbar #mobile-nav {
-    display: none; }
+    width: 0;
+    height: 0; }
+    .navbar #mobile-nav:focus + label {
+      border-color: black; }
     .navbar #mobile-nav:checked ~ .row .navbar-item {
       display: block; }
   .navbar .navbar-item {

@@ -88,8 +88,8 @@ class View {
       <div class="banner">
         <a href="/">cjmil.com</a>
       </div>
-      <label for="mobile-nav"><img src="/images/mobile_menu.svg" alt="Mobile Menu" /></label>
       <input type="checkbox" id="mobile-nav" />
+      <label for="mobile-nav"><img src="/images/mobile_menu.svg" alt="Mobile Menu" /></label>
       <div class="row">
         <?php
           foreach($menu as $key => $item) { 
