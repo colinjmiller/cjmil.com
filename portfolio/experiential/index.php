@@ -27,4 +27,4 @@
       </section>
       <h2>
     </div>
-<?= View::footer_logic() ?>
+<?= View::footer_logic(false) ?>

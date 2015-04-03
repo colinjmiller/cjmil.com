@@ -39,16 +39,19 @@ class View {
     <?php
   }
 
-  public static function footer_logic() {
+  public static function footer_logic($translations = true) {
     ?>
         <footer class="container">
           Copyright &copy; <?= date("Y") ?> Colin Miller
+          <?php if ($translations) { ?>
           <div class="language-options">
             <a href="#" data-action="switch-language">
              <?= t('switch_language') ?>
             </a>
           </div>
+          <?php } ?>
         </footer>
+        <?php if ($translations) { ?>
         <div class="language modal backdrop hide"></div>
         <div class="language modal container hide">
           <header class="modal header">
@@ -70,6 +73,7 @@ class View {
             <button class="cancel">Cancel</button>
           </footer>
         </div>
+        <?php } ?>
       </body>
     </html>
     <?php

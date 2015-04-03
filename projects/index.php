@@ -63,4 +63,4 @@
         <dd>This sequal to the original is built with Ruby on Rails and has been a wonderful learning experience. I plan to include many more levels than the original and release the game in both English and German. Work on this project is sporadic because it's so creative; if I'm not in the right mind-set then I cannot make progress.</dd>
       </dl>
     </div>
-<?= View::footer_logic() ?>
+<?= View::footer_logic(false) ?>

@@ -18,4 +18,4 @@
         </div>
       </section>
     </div>
-<?= View::footer_logic() ?>
+<?= View::footer_logic(false) ?>
