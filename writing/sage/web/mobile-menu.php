@@ -13,7 +13,7 @@
           <h2>...And it's accessible, too!</h2>
         </header>
         <div class="publication-times">
-          <p>Published: <time datetime="2015-04-02">April 2nd, 2015</time>.</p>
+          <p>Published <time datetime="2015-04-02">April 2nd, 2015</time>.</p>
         </div>
         <div class="introduction">
           <p>Nowadays, web developers use <em>Mobile-First Responsive Web Design</em> to give mobile phone users a great experience on their website. If you go to this website on a phone or resize your browser to a smaller size, you'll see that it looks like a familiar phone interface. In particular, the menu options are hidden by default but become available after clicking the mobile menu button. That button's functionality depends entirely on CSS; there's no Javascript involved! Interested how it works? Great, let's go!</p>
@@ -103,6 +103,17 @@
 </code>
 </pre>
         <p>What's going on here? By default, I'm applying a 1px invisible border on the label. I do this because when I make the border visible, I don't want things to jump around by a pixel. The cool stuff happens inside the <code>#mobile-nav</code> selector, though. When the user tabs to the <code>#mobile-nav</code> checkbox, it will active its <code>:focus</code> pseudoselector. I then target its direct sibling, <code>label</code>, and give its border a black color. This gives the user the illusion that they just tabbed to the mobile navigation button, even though it's just a label!<p>
+      </section>
+      <section>
+        <h3>Parting Thoughts...</h3>
+        <p>As with a lot of CSS tricks, this mobile navigation menu is limited to more modern browsers. I've tested it in the latest versions of Chrome, Firefox, and Internet Explorer and they all worked fine. Based on what I'm seeing online, this trick will be limited to the following:</p>
+        <ul>
+          <li>Chrome with <code>-webkit</code> prefix, 36+ without</li>
+          <li>Firefox 3.5+ with the <code>-moz</code> prefix, 16+ without</li>
+          <li>Internet Explorer 9+ with the <code>-ms</code> prefix, 10+ without</li>
+          <li>Opera 10.5+ with the <code>-o</code> prefix, 15+ with <code>-webkit</code>, 23+ without</li>
+          <li>Safari 3.1+ with the <code>-webkit</code> prefix</li>
+        </ul>
       </section>
     </article>
 <?= View::footer_logic() ?>

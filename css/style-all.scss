@@ -160,7 +160,7 @@ footer {
 
   #mobile-nav {
 
-    transform: scale(0); 
+    @include vendor-prefix(transform, scale(0)); 
 
     &:focus + label {
       border-color: black;
