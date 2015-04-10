@@ -6,7 +6,7 @@
 <?= View::header_logic("Expandable Mobile Menu in CSS | Sage Advice") ?>
   <?= View::navigation_bar("Writing") ?>
     <article class="mobile-menu container">
-      <img class="main-img u-light-margin" src="/images/sage/sage_on_mobile.svg" alt="Sage Waving" />
+      <img class="main-img u-light-margin" src="/images/sage/sage_css_weights.svg" alt="Sage weighing two CSS properties" />
       <section class="content-column">
         <header>
           <h1>CSS Precedence Rules</h1>
