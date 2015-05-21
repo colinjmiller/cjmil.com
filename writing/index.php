@@ -25,7 +25,7 @@
       <dl>
         <dt><a href="/resume.pdf">R&eacute;sum&eacute;</a></dt>
         <dd>
-          R&eacute;sum&eacute;
+          This is the part where I tell you all about how great I am!
         </dd>
       </dl>
     </div>

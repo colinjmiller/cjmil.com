@@ -3,7 +3,7 @@
   require_once("{$_SERVER['DOCUMENT_ROOT']}/view-logic/views.php");
 
 ?>
-<?= View::header_logic("Expandable Mobile Menu in CSS | Sage Advice") ?>
+<?= View::header_logic("CSS Precedence Rules | Sage Advice") ?>
   <?= View::navigation_bar("Writing") ?>
     <article class="mobile-menu container">
       <img class="main-img u-light-margin" src="/images/sage/sage_css_weights.svg" alt="Sage weighing two CSS properties" />
@@ -19,7 +19,7 @@
           <p>
             It's an inevitability in web design; you add a style to an element, refresh the page, and nothing changes. You go back, double-check to see if there's a typo, re-save the file, refresh the page, and still nothing changes. You check the element inspector, and lo and behold, there's another style coming in from somewhere else that's getting applied over the one you just tried to create. GAH!
           </p>
-          <p>In this article, I'm going to explain why this happens and how styles are calculated.
+          <p>In this article, I'm going to explain why this happens and how styles are calculated.</p>
         </div>
       </section>
     </article>

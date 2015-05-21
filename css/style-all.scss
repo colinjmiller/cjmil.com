@@ -3,7 +3,7 @@ blockquote {
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: hidden; /* meow */
 }
 
 .caret-right {
@@ -34,6 +34,8 @@ footer {
   display: block;
   margin: auto;
   margin-bottom: 10px;
+  width: 100%;
+  max-width: 225px;
 }
 
 // Article Styles
