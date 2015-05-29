@@ -529,6 +529,13 @@ footer {
     max-width: 100%;
     border: 2px solid black; }
 
+.ornate {
+  text-align: center;
+  border-bottom: 1px dashed;
+  line-height: 60%; }
+  .ornate span {
+    background-color: white; }
+
 .modal.backdrop {
   position: fixed;
   top: 0;
