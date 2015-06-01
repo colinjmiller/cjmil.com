@@ -440,12 +440,6 @@ p {
   max-width: 100%;
   box-sizing: border-box; }
 
-.u-pull-right {
-  float: right; }
-
-.u-pull-left {
-  float: left; }
-
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 hr {
@@ -490,6 +484,9 @@ body {
   overflow-x: hidden;
   /* meow */ }
 
+body > footer {
+  text-align: center; }
+
 .caret-right {
   width: 0;
   height: 0;
@@ -503,18 +500,21 @@ body {
 .creation-date {
   font-style: italic; }
 
-footer {
-  text-align: center; }
-
 .hide {
   display: none !important; }
 
-.main-img {
+.main-img, .section-img {
   display: block;
   margin: auto;
   margin-bottom: 10px;
   width: 100%;
   max-width: 225px; }
+
+blockquote {
+  margin-left: 3%;
+  margin-right: 3%; }
+  blockquote footer {
+    margin-left: 5%; }
 
 .mobile-menu h1 {
   font-size: 4.5rem;
@@ -534,7 +534,11 @@ footer {
   border-bottom: 1px dashed;
   line-height: 60%; }
   .ornate span {
-    background-color: white; }
+    background-color: white;
+    line-height: 100%; }
+
+ol {
+  margin-left: 5%; }
 
 .modal.backdrop {
   position: fixed;
@@ -663,9 +667,14 @@ footer {
     border-bottom: 7px solid transparent;
     border-left: 7px solid black; }
 
-  .main-img {
+  .main-img, .section-img {
     float: left;
     margin-right: 10px; }
+
+  .section-img {
+    max-width: 300px;
+    padding: 1px;
+    border: 1px solid black; }
 
   .mobile-menu .mobile-menu-example {
     display: block; }
@@ -679,6 +688,9 @@ footer {
       display: none; }
     .navbar .navbar-item {
       display: block;
-      font-size: 20px; } }
+      font-size: 20px; }
+
+  .ornate span {
+    line-height: inherit; } }
 /* Larger than desktop */
 /* Larger than Desktop HD */

@@ -19,7 +19,7 @@
       <dl>
         <dt><a href="german/">The Rise of Fascism in Germany</a></dt>
         <dd>
-          For around a decade before World War II, fascism rose in popularity and eventually dominated Germany's political thought. Join me as I go through the years during this rise, examining the popular thought, literature, and art of the period.
+          Join me as I explore the rise of fascism in Germany, examining the reasons behind it, why it was allowed to happen, and what people of the time thought about it.
         </dd>
       </dl>
       <dl>

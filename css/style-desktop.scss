@@ -11,9 +11,15 @@
   border-left: 7px solid black;
 }
 
-.main-img {
+.main-img, .section-img {
   float: left;
   margin-right: 10px;
+}
+
+.section-img {
+  max-width: 300px;
+  padding: 1px;
+  border: 1px solid black;
 }
 
 .mobile-menu {
@@ -39,4 +45,8 @@
     display: block;
     font-size: 20px;
   }
+}
+
+.ornate span {
+  line-height: inherit;
 }

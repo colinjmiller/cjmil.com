@@ -6,6 +6,10 @@ body {
   overflow-x: hidden; /* meow */
 }
 
+body > footer {
+  text-align: center;
+}
+
 .caret-right {
   width: 0;
   height: 0;
@@ -22,15 +26,11 @@ body {
   font-style: italic;
 }
 
-footer {
-  text-align: center;
-}
-
 .hide {
   display: none !important;
 }
 
-.main-img {
+.main-img, .section-img {
   display: block;
   margin: auto;
   margin-bottom: 10px;
@@ -39,6 +39,15 @@ footer {
 }
 
 // Article Styles
+
+blockquote {
+  margin-left: 3%;
+  margin-right: 3%;
+
+  footer {
+    margin-left: 5%;
+  }
+}
 
 .mobile-menu {
   h1 {
@@ -71,7 +80,12 @@ footer {
 
   span {
     background-color: white;
+    line-height: 100%;
   }
+}
+
+ol {
+  margin-left: 5%;
 }
 
 // Modal Styles
