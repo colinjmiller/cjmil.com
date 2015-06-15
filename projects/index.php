@@ -12,13 +12,20 @@
       </p>
       <h3>Completed Projects</h3>
       <dl>
+        <dt><a href="http://www.kongregate.com/games/colinjmiller/bim" target="_blank">Bim</a></dt>
+        <dd class="creation-date">Created: June 9th, 2015</dd>
+        <dd>
+          Bim is a fast-paced, skill-based platform game that combines parkour and teleportation in 30 unique levels. I created this over a few months with help from my friends Ryan Hussin, Andrew Donaldson, and Tommy Ager. The game uses Actionscript 3 as its base.
+        </dd>
+      </dl>
+      <dl>
         <dt><a href="https://apps.facebook.com/facebookfinal/" target="_blank">The Facebook Final</a></dt>
         <dd class="creation-date">Created: April 26th, 2014</dd>
         <dd>The Facebook Final is a quiz on how well you know your Facebook friends. Three friends and I got together at Facebook headquarters in Seattle for their annual 24-hour Hack-A-Thon. Beginning at 6PM, the four of us caffeinated up and worked steadily through the night and morning.</dd>
       </dl>
       <dl>
         <dt><a href="/portfolio/">Honors Portfolio</a></dt>
-        <dd>My Honors Portfolio began as a requirement from the Honors College at the University of Washington, but I used it as a playground for trying new technologies, such as scalable vector graphics and tranlations. The portfolio itself goes off the theme "constant learning," so each subsection tells the story of an experience at UW that impacted me in terms of learning.</dd>
+        <dd>My Honors Portfolio began as a requirement from the Honors College at the University of Washington, but I used it as a playground for trying new technologies, such as scalable vector graphics and translations. The portfolio itself goes off the theme "constant learning," so each subsection tells the story of an experience at UW that impacted me in terms of learning.</dd>
       </dl>
       <dl>
         <dt><a href="http://cjmil.com/Journey/">The Journey</a></dt>
