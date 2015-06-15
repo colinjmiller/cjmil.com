@@ -34,7 +34,13 @@
               <li><a href="#nurember-media">Media</a></li>
             </ol>
           </li>
-          <li><a href="#anti-fascism">Anti-Fascism</a></li>
+          <li><a href="#forbidden-art">Forbidden Art</a>
+            <ol>
+              <li><a href="#entartete-kunst">Entartete Kunst</a></li>
+              <li><a href="#book-burnings">The Book Burnings</a></li>
+            </ol>
+          </li>
+          <li><a href="#resistance">German Resistance</a></li>
         </ol>
       </section>
       <section id="introduction" class="introduction u-full-width u-cf">
@@ -151,12 +157,63 @@
           Besides propping up Nazi officials, the film also depicts ideal Germans. While Hitler gives a speech to German youth, the camera pans over all the boys and girls assembled neatly in rows. The boys, dressed in similar uniforms, all have a fair complexion and blonde hair. While disembarking the plane, the camera briefly focuses on three healthy women wearing traditional German women's clothing as they clamour to see Hitler. Clean cut men in sharp uniforms listen attentively to all of the speeches, and even the elderly are seen nodding in approval to the words of the Nazis.
         </p>
       </section>
-      <section id="anti-fascism">
+      <section id="forbidden-art">
         <h2 class="ornate">
-          <span>Anti-Fascism</span>
+          <span>Forbidden Art</span>
         </h2>
         <p>
-          
+          With the rise of the Nazi Party to Germany's leadership in 1933, Hitler saw how art could be used as propaganda to support his cause. In particular, Hitler wanted to unify the German people by giving them a past to be proud of and by providing a uniquely German art style. Much of the propaganda from this era uses Greek-like imagery to portray German men as fit, nationalistic, and ready to save the fatherland. Women are portrayed as mothers and caregivers, providing a safe home for their children and food for their husband. With Joseph Goebbels as the Minister of Propagandabegan, the Nazis began a push to bring German art and culture in line with their ideology. Two areas he focused on included modern art and literature. 
+        </p>
+        <h3 id="entartete-kunst"><em>Entartete Kunst</em></h3>
+        <p>
+          <em>Entartete Kunst</em>, or degenerate art, were works produced by artists that the Nazis deemed un-German. Degenerate art included works produced by Jews and communists, but also targeted many of the popular artistic movements of the Weimar Era, such as Expressionism, Dadaism, and <em>Neue Sachlichkeit</em>, or New Objectivity.
+        </p>
+        <p>
+          The Nazis seized works that did not conform to their ideals. Over 16,000 works were confiscated by the six person commission in charge of collecting degenerate works, sometimes with tragic results: Alfred Flechtheim, a prominent Jewish art collector and advocate of modern art movements, had his private collection confiscated and sold off. Forced to leave the country, he died in 1937 with few possessions. However, even members of the Nazi party were not spared; Emil Nolde, himself a member of the Nazi party, had over 1,000 works seized.
+        </p>
+        <h4>Emil Nolde's Portrait of a Young Girl</h4>
+        <img class="section-img" src="/images/fascism/portrait-of-a-young-girl.jpg" alt="Emil Nolde's Portrait of a Young Girl" />
+        <p>
+          Emil Nolde, a prominent German expressionist and member of Die Brücke, was an early supporter of the Nazi party, sympathizing with its ideals in the early 1920s. He was antisemitic and believed that Jewish artists and their work were un-German. He also believed that Expressionism was a uniquely German art style, a belief held by other high-ranking Nazis like Goebbels. Indeed, Nolde enjoyed high praise by the German public until 1937, when Hitler declared that all forms of modern art, Expressionism included, were degenerate art. Nolde protested, but by 1941 was forbidden from creating any new artwork.
+        </p>
+        <p>
+          Seen here is Nolde's <em>Portrait of a Young Girl</em>, which used bold colors and thick lines to depict a young girl. The girl's dark colors immediately set the mood as mysterious and perhaps even scary. Sharply contrasting this are the girl's lips, covered in scarlet lipstick. However, her lips are partially hidden in shadow, hinting that they have been involved in the dark and myserious activity suggested by the rest of the girl's appearance. It's possible that the young girl is a prostitute struggling to survive, but two notable features of the picture suggest an alternative: Her haircut and the gradient background. Her hair is bobbed, a popular look for New Women in this progressive era. The woman also seems to be striding forward confidently with her eyes wide open, looking toward the new opportunities afforded to her as a women in the early 20th century.
+        </p>
+        <p>
+          The work was considered degenerate because it did not present accurate physiognomy of a girl and instead relied upon color for interpretation. It was displayed in Munich's 1937 Degenerate Art Exhibit.
+        </p>
+        <h3 id="book-burnings" class="u-cf">The Book Burnings</h3>
+        <p>
+          Goebbels also targeted literature that the Nazis found <q>un-German</q>. Aided by the National Socialist German Students' Association, the Nazis proclaimed a nationwide <q>Action against the un-German spirit</q> and aimed to utilize book-burning as the climax of this cleanse. On April 8th, 1933, the National Socialist German Students' Association published two theses, a reference to Martin Luther's 95 theses, of what designated German literature. Among other things, they attacked Jewish intellectualism and asserted that universities must be the center of German nationalism. They then burned over 25,000 un-German books.
+        </p>
+        <p>
+          The book burnings included all the works of Bertolt Brecht, a prominent communist and author of works such as <em>Die Dreigroschenoper</em>. His works were burned because they criticized German middle-class society and Nazism while advocating Marxism. He fled Germany shortly before the book burnings.
+        </p>
+      </section>
+      <section id="resistance">
+        <h2 class="ornate">
+          <span>German Resistance</span>
+        </h2>
+        <p>
+          Between the years of 1933 and 1938, Hitler enjoyed almost universal approval in Germany. Many citizens had become disenchanted with the failures of the Weimar Republic and democracy and welcomed Hitler's leadership. To many, Hitler was a miracle-worker that restored full employment and annexed Austria without bloodshed. Despite little organized resistance during these five years, several groups and assassination attempts proved to be formidable opponents to Hitler's reign.
+        </p>
+        <h3>The SPD and KPD</h3>
+        <p>
+          As soon as Hitler became chancellor of Germany, he set about destroying the opposition. His hatred for communism and marxism became most apparent when he outlawed the Social Democratic and Communist Parties, imprisoning many of its leaders as <q>dangerous opponents of the regime.</q> The two parties continued operating illegal underground networks, but neither could come to an agreement and work together; their pre-1933 conflicts prevented that. Their members consisted almost entirely of disgruntled industrial workers who resented the stringent labor discipline, but a few leaders published reports of Germany's activities while abroad as well. Because of their inability to work together, these groups were unable to achieve much in terms of resistance.
+        </p>
+        <h3>The Church</h3>
+        <p>
+          The Catholic Church was the main source of opposition to Nazism during the 1920s and '30s. German bishops denounced its false doctrine, but Hitler fought back by banning all Catholic political influence and signing a 1933 concordat with the Holy See that prevented the clergy from participating in politics. Nevertheless, high-ranking Catholic officials continued to be a source of conflict; in 1937, Pope Pius XI wrote <em>mit brennender Sorge</em>, a fierce attack against the Nazi ideology and Hitler's personality cult. He had it smuggled into Germany to be read at the pulpit on Palm Sunday, one of the busiest days of the year.
+        </p>
+        <p>
+          Catholic leadership continued to be defiant, even during World War II. The archbishop of Cologne, Josef Frings, made numerous reports on the persecution of the Jews and called them <q>crimes that cried out to heaven.</q> He attacked arbitrary arrests, racial persecution, and forced divorces, and called his diocese to not violate the rights of the Jews. Because of his popularity, Archbishop Frings prevented his imprisonment. He was closely monited by the Gestapo.
+        </p>
+        <h3>Assassination Attempts</h3>
+        <p>
+          Hitler survived many assassination attempts during his time at leader of Germany. He attributed each survival to providence, adding to the personality cult that he was indestructible. The first assassination attempt occurred in 1939, when Hitler was scheduled to make a speech at the beer hall in Munich where he had attempted to overthrow the local government 16 years earlier. A carpenter, Johann Georg Elser, spent a month before the scheduled speech sneaking into the hall after closing hours and hollowing out the pillar behind the podium, into which he placed a time bomb. Hitler's speech was much shorter than Elser expected, however, and he left the hall 13 minutes before it detonated, killing eight and injuring sixty others. Elser was captured and imprisoned in Dachau until 1945, when he was executed.
+        </p>
+        <p>
+          Besides attempts by German citizens, Hitler's army also made several attempts on his life. In 1942, Major General Henning von Traskow attempted to assassinate Hitler by placing a bomb on his plane. The bomb's pencil detonator went off, but the bomb did not--probably due to the cold temperature at such a high altitude. On July 22nd, 1944, an elaborate plan involving many of Germany's army attempted to assassinate Hitler in his Wolf's Lair during a conference. Claus von Stauffenberg placed a bomb inside his briefcase and positioned it under the table, then left on account of a personal phone call. The bomb detonated and killed four in the room, but only ripped part of Hitler's trousers. 
         </p>
       </section>
     </article>
