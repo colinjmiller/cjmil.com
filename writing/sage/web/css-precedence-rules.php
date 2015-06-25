@@ -40,6 +40,42 @@
             <li>The selector <code>&lt;div style=&quot;...&quot;&gt;...&lt;/div&gt;</code> would be represented as [1, 0, 0, 0] because it has an inline style.</li>
           </ul>
         </p>
+        <p>
+          That's all well and good, but sometimes selectors get much more complicated. Let's look at some larger selectors and break down their score.
+        </p>
+      </section>
+      <section>
+        <h2 class="ornate">
+          <span>Examples</span>
+        </h2>
+        <p>
+          <code>#main .item { ... }</code>
+        </p>
+        <p>
+          This selector would have a CSS precedence score of [0, 1, 1, 0] due to its combination of an ID and class. So, what happens if the following CSS is applied?
+        </p>
+<pre>
+<code>
+#main .item { color: green; }
+.item       { color: red; }
+</code>
+</pre>
+        <p>
+          The second selector has a score of [0, 0, 1, 0], which is <em>less</em> specific than the first selector. This means that elements with the <code>item</code> class inside of elements with ID <code>main</code> would be green, not red.
+        </p>
+        <h3>But what if they were the same...</h3>
+        <p>
+          Let's throw out another interesting situation:
+        </p>
+<pre>
+<code>
+#main .item { color: green; }
+#main .item { color: red; }
+</code>
+</pre>
+        <p>
+          In this case, the selectors both have a score of [0, 1, 1, 0]. Which one wins out? In the case of ties, the selector that comes <em>last</em> is deemed most important, so the element's text would be red.
+        </p>
       </section>
     </article>
 <?= View::footer_logic(false) ?>
