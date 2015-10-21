@@ -440,6 +440,9 @@ p {
   max-width: 100%;
   box-sizing: border-box; }
 
+.text-center {
+  text-align: center; }
+
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 hr {
@@ -651,6 +654,12 @@ ol {
     display: none; }
   .portfolio section.expanded .klass {
     display: block; }
+
+.by-vigor .header-logo {
+  width: 100%;
+  max-width: 500px; }
+.by-vigor .logo {
+  width: 100px; }
 
 /* Larger than mobile */
 /* Larger than phablet (also point when grid becomes active) */
