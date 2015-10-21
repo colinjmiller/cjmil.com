@@ -12,6 +12,13 @@
       </p>
       <h3>Completed Projects</h3>
       <dl>
+        <dt><a href="by-vigor/">By Vigor</a></dt>
+        <dd class="creation-date">Created: October 20th, 2015</dd>
+        <dd>
+          By Vigor is my first creation with the Unity Game Engine. The game is quite short--perhaps 15-30 minutes in length, but I'm pleased with how it turned out. Thank you very much to my good friend Tommy for supplying the sounds and music that make the experience.
+        </dd>
+      </dl>
+      <dl>
         <dt><a href="http://www.kongregate.com/games/colinjmiller/bim" target="_blank">Bim</a></dt>
         <dd class="creation-date">Created: June 9th, 2015</dd>
         <dd>

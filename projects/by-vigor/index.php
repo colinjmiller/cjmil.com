@@ -33,7 +33,7 @@
         </div>
       </div>
       <p>
-        By Vigor is my first creation with the Unity Game Engine. The game is quite short--perhaps 15-30 minutes in length, but I'm pleased with how it turned out. Thank my very much to my good friend Tommy  for supplying the sounds and music that make the experience.
+        By Vigor is my first creation with the Unity Game Engine. The game is quite short--perhaps 15-30 minutes in length, but I'm pleased with how it turned out. Thank you very much to my good friend Tommy  for supplying the sounds and music that make the experience.
       </p>
       <p>
         This game is dedicated to Rummi and Campbell: Two of the greatest people I've ever met.
