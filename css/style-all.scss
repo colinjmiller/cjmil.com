@@ -180,7 +180,7 @@ ol {
     margin: 20px 25px 0 0;
     padding: 1px;
     box-sizing: border-box;
-    border: 1px dotted transparent;
+    outline: 1px dotted transparent;
     float: right;
   }
 
@@ -189,7 +189,7 @@ ol {
     @include vendor-prefix(transform, scale(0)); 
 
     &:focus + label {
-      border-color: black;
+      outline-color: black;
     }
 
     &:checked {

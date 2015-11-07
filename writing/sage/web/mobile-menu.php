@@ -89,7 +89,7 @@
         <p>As mentioned above, our implementation still works for people using screen readers, because the checkbox is still within the tab index. However, since the <code>#mobile-nav</code> checkbox is effectively invisible, the interaction is pretty weird for people who use the tab key to navigate the web. Luckily, we can fix this with a little extra CSS!</p>
 <pre>
 <code>label {
-  border: 1px dotted transparent;
+  outline: 1px dotted transparent;
 }
 
 #mobile-nav {
@@ -97,12 +97,12 @@
   ...
 
   &amp;:focus + label {
-    border-color: black;
+    outline-color: black;
   }
 }
 </code>
 </pre>
-        <p>What's going on here? By default, I'm applying a 1px invisible border on the label. I do this because when I make the border visible, I don't want things to jump around by a pixel. The cool stuff happens inside the <code>#mobile-nav</code> selector, though. When the user tabs to the <code>#mobile-nav</code> checkbox, it will active its <code>:focus</code> pseudoselector. I then target its direct sibling, <code>label</code>, and give its border a black color. This gives the user the illusion that they just tabbed to the mobile navigation button, even though it's just a label!<p>
+        <p>What's going on here? By default, I'm applying a 1px invisible outline on the label. I do this because when I make the outline visible, I don't want things to jump around by a pixel. The cool stuff happens inside the <code>#mobile-nav</code> selector, though. When the user tabs to the <code>#mobile-nav</code> checkbox, it will active its <code>:focus</code> pseudoselector. I then target its direct sibling, <code>label</code>, and give its outline a black color. This lets the user know that they just tabbed to the mobile navigation button, even though it's just a label!<p>
       </section>
       <section>
         <h3>Parting Thoughts...</h3>
