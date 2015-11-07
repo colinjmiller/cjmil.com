@@ -12,9 +12,6 @@
         <p>
           <?= t('home_about_me') ?>
         </p>
-        <p>
-          <?= t('home_about_site') ?>
-        </p>
       </div>
     </div>
 <?= View::footer_logic() ?>

@@ -25,8 +25,7 @@ function t($phrase) {
     # /
 
     'home_hi' => "Hallo, ich bin Colin Miller.",
-    'home_about_me' => "Ich wohne in Seattle, WA und besuche die Universität Washingtons, an der ich Computerwissenschaft als Hauptfach und Deutsch als Nebenfach studiere. Ich bin im letzten Jahr an der Universität und freue mich auf das Ende der Schule, das am 15. Juni, 2015 passiert. Ich arbeite halbtags als Webentwikler mit dem CoreSite Team bei der Firma <a href=\"http://www.whitepages.com/\" target=\"_blank\">Whitepages.com</a>, eine Identitätfirma, die in der Stadtmitte Seattle existiert. In meiner Freizeit genieße ich das Lernen von neuen Webtechnologien und das Arbeiten auf persönliche Projekte.",
-    'home_about_site' => "Das bauen von cjmil.com fing nach einer Webentwicklungsklasse in 2012 an. Zuerst benutzte ich diese Website als ein Heim für mein Honors Portfolio. Seitdem gibt es meinen persönlichen Projekte ein Heim. Bitten Entschuldigen Sie mein Deutsch; ich bin noch nicht fließend. Die Übersetzungen in dieser Website werden ganz oft falsch, aber mein wichtiges Ziel ist Lernen!",
+    'home_about_me' => "Ich bin Softwareentwickler aus Seattle, Washington. Ich graduierte bei der Universität Washingtons im Frühling 2015 und arbeite jetzt bei der Firma Whitepages. Im Arbeitsleben habe ich eine Leidenschaft für Vorschaltstechnologien und die beste Nutzererfahrung. Im Privatleben habe ich ein paar Projekte, die <a href='/projects/'>hier</a> gefunden werden!",
 
     # Portfolio
 

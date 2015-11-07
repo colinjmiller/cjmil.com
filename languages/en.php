@@ -25,8 +25,7 @@ function t($phrase) {
     # /
 
     'home_hi' => "Hi, I'm Colin Miller.",
-    'home_about_me' => "I live in Seattle, WA and attend the University of Washington, where I study computer science and German. I am in my final year at the university and am looking forward to finishing my undergraduate degree in June, 2015. I work part-time at <a href=\"http://www.whitepages.com/\" target=\"_blank\">Whitepages.com</a>, an identity company based in downtown Seattle, as a web developer on the CoreSite team. In my spare time, I enjoy learning about the latest in front-end web development and working on personal projects.",
-    'home_about_site' => "I began cjmil.com in 2012 after taking a web development class and first used it as a platform for my Honors Portfolio. This is the third iteration of the site's design; it has since grown to house my personal projects and much more information about myself. One of my most ambitious projects is the translation of this entire site into German; click below to check it out!",
+    'home_about_me' => "I'm a software engineer from Seattle, Washington. I graduated from the University of Washington in Spring, 2015, and currently work at Whitepages. In my professional life, I am passionate about front-end technologies and ensuring the best possible user experience. Outside of work, I have a variety of personal projects; check them out <a href='/projects/'>here</a>!",
 
     # Portfolio
 
