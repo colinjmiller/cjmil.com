@@ -2,3 +2,5 @@
 *.css.map
 final.mp4
 secrets.php
+*.zip
+*.unity3d

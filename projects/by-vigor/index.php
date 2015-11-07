@@ -33,6 +33,12 @@
         </div>
       </div>
       <p>
+        <strong>Note to Mac users:</strong> To run By Vigor, you must right-click and choose 'Open'. Double-clicking the .app file may cause your computer to warn you that the application comes from an unidentified developer and not let you open the file.
+      </p>
+      <p>
+        <strong>Note to In-Browser users:</strong> The latest version of Chrome does not support the Unity Web Player. Any other major browser, such as Safari, Firefox, Internet Explorer, or Opera, will allow you to play By Vigor.
+      </p>
+      <p>
         By Vigor is my first creation with the Unity Game Engine. The game is quite short--perhaps 15-30 minutes in length, but I'm pleased with how it turned out. Thank you very much to my good friend Tommy  for supplying the sounds and music that make the experience.
       </p>
       <p>
