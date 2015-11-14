@@ -25,7 +25,7 @@ function t($phrase) {
     # /
 
     'home_hi' => "Hi, I'm Colin Miller.",
-    'home_about_me' => "I'm a software engineer from Seattle, Washington. I graduated from the University of Washington in Spring, 2015, and currently work at Whitepages. In my professional life, I am passionate about front-end technologies and ensuring the best possible user experience. Outside of work, I have a variety of personal projects; check them out <a href='/projects/'>here</a>!",
+    'home_about_me' => "I'm a software engineer from Seattle, Washington. I graduated from the University of Washington in Spring, 2015, and currently work at Whitepages. In my professional life, I am passionate about front-end technologies and ensuring the best possible user experience. Outside of work, I have a <a href='/projects/'>variety of personal projects</a> that keep me busy!",
 
     # Portfolio
 

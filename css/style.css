@@ -224,10 +224,10 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1eaedb; }
+  color: #0079c0; }
 
 a:hover {
-  color: #1b9cc5; }
+  color: #0069a7; }
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -239,13 +239,13 @@ input[type="button"] {
   display: inline-block;
   background-color: transparent;
   border-radius: 4px;
-  color: #bbbbbb;
+  color: #595959;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
-  border: 1px solid #bbbbbb;
+  border: 1px solid #595959;
   height: 38px;
   line-height: 38px;
   padding: 0 30px;
@@ -264,8 +264,8 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  border-color: #a2a2a2;
-  color: #a2a2a2;
+  border-color: #3f3f3f;
+  color: #3f3f3f;
   outline: 0; }
 
 .button.button-primary,
@@ -299,7 +299,7 @@ input[type="text"],
 input[type="password"],
 textarea,
 select {
-  border: 1px solid #bbbbbb;
+  border: 1px solid #595959;
   height: 36px;
   padding: 6px 10px;
   /* The 6px vertically centers text on FF, ignored by Webkit */
@@ -643,7 +643,7 @@ ol {
   .portfolio nav ul li {
     text-align: center; }
 .portfolio section {
-  border: 1px solid #bbbbbb;
+  border: 1px solid #595959;
   margin-bottom: 1rem;
   padding-top: 2rem;
   padding-left: 2rem; }
@@ -694,6 +694,8 @@ ol {
     .navbar + .container {
       padding-top: initial; }
     .navbar label {
+      display: none; }
+    .navbar #mobile-nav {
       display: none; }
     .navbar .navbar-item {
       display: block;
