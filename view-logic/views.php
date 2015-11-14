@@ -45,7 +45,7 @@ class View {
           Copyright &copy; <?= date("Y") ?> Colin Miller
           <?php if ($translations) { ?>
           <div class="language-options">
-            <a href="#" data-action="switch-language">
+            <a href="/languages/" data-action="switch-language">
              <?= t('switch_language') ?>
             </a>
           </div>
@@ -59,12 +59,12 @@ class View {
           </header>
           <div class="modal body row">
             <div class="six columns">
-              <a class="flag" href="#" data-language="en">
+              <a class="flag" href="/languages/" data-language="en">
                 <img src="/images/american_flag.svg" alt="<?= t('english') ?>" />
               </a>
             </div>
             <div class="six columns">
-              <a class="flag" href="#" data-language="de">
+              <a class="flag" href="/languages/" data-language="de">
                 <img src="/images/germany_flag.svg" alt="<?= t('german') ?>" />
               </a>
             </div>

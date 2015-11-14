@@ -6,4 +6,7 @@ if (isset($_POST["language"])) {
 	$_SESSION["language"] = $_POST["language"];
 }
 
+header('Location: /');
+die();
+
 ?>

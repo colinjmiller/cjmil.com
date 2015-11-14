@@ -39,8 +39,8 @@ function t($phrase) {
     'portfolio_p5' => 'Dieses Portfolio is ein Anhäufung meiner Erfahrungen an der Univesitaet Washingtons. Dadurch denke ich an meiner Vergangenheit nach, um meine Zukunft zu verbessern. Wenn Sie fuer meine Vergangenheit interessieren, koennen Sie mein erstes Portfolio <a href="http://cjmil.com/old/">hier</a> finden.',
     'switch_language' => 'Sprache ändern',
     'choose_language' => 'Bitte wählen Sie eine Sprache',
-    'english' => 'Englisch',
-    'german' => 'Deutsch',
+    'english' => 'Site auf Englisch benutzen',
+    'german' => 'Site auf Deutsch benutzen',
 
     # Freshman Year
 
