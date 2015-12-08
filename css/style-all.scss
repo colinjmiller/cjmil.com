@@ -288,3 +288,48 @@ ol {
     width: 100px;
   }
 }
+
+// Alerts
+
+.alert {
+  padding: 15px;
+  border-width: 1px;
+  border-style: solid;
+
+  &.alert-error {
+    border-color: #FFB0B0;
+    background-color: #FFF0F0;
+  }
+}
+
+// Boxes
+
+.box {
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+
+  .box-header {
+    background-color: #f9f9f9;
+    font-size: 3rem;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+
+    // Direct siblings? Remove top border
+    &+ .box-footer {
+      border-top: none;
+    }
+  }
+
+  .box-content {
+    padding: 15px;
+  }
+
+  .box-footer {
+    padding: 15px;
+    border-top: 1px solid #ddd;
+
+    button {
+      margin-bottom: 0;
+    }
+  }
+}
