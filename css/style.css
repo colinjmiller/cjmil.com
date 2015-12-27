@@ -503,6 +503,9 @@ body > footer {
 .creation-date {
   font-style: italic; }
 
+dt {
+  margin-top: 2.5rem; }
+
 .hide {
   display: none !important; }
 
@@ -661,7 +664,22 @@ ol {
 .by-vigor .logo {
   width: 100px; }
 
+.comics {
+  text-align: center; }
+  .comics img {
+    width: 100%; }
+  .comics figure {
+    margin: 0;
+    padding: 5px;
+    border: 1px solid black; }
+  .comics figcaption {
+    font-weight: bold; }
+
 /* Larger than mobile */
+@media (min-width: 400px) {
+  .comics img {
+    width: 49%;
+    max-width: 480px; } }
 /* Larger than phablet (also point when grid becomes active) */
 /* Larger than tablet */
 @media (min-width: 750px) {

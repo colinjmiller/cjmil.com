@@ -19,6 +19,10 @@
         <dd>
           If you look at my website on a phone or scrunch your browser down to a small size, you'll see that the navigation menu gets hidden behind a mobile menu that can be expanded with a click. The technology behind this requires no Javascript, just pure CSS! For added goodness, it's completely accessible to people using screen readers, too.
         </dd>
+        <dt><A href="web/making-stuff-up.php">Making Stuff Up</a></dt>
+        <dd>
+          I swear the designers I work with think I'm incompetent sometimes.
+        </dd>
       </dl>
     </div>
 <?= View::footer_logic(false) ?>
