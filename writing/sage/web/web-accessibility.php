@@ -39,24 +39,18 @@
         <p>
           Quite often, there are some small things that get missed. For example, does the <code>html</code> element have a <code>lang</code> attribute attached to it? Our site didn't. Since our site is in English, it's easily fixed by with a small addition:
         </p>
-        <p>
-          <code><?= htmlspecialchars('<html lang="en"> ... </html>') ?></code>
-        </p>
+<pre><code><?= htmlspecialchars('<html lang="en"> ... </html>') ?></code></pre>
       </section>
       <section>
         <h3>Unsemantic Markup</h3>
         <p>
           One of the easier issues to address was our unsemantic markup. We used font-awesome in our site for many of our icons, which recommends the following syntax:
         </p>
-        <p>
-          <code><?= htmlspecialchars('<i class="fa fa-camera-retro"></i>') ?></code>
-        </p>
+<pre><code><?= htmlspecialchars('<i class="fa fa-camera-retro"></i>') ?></code></pre>
         <p>
           However, my accessibility checker marked this as a problem, because the <code>&lt;i&gt;</code> element <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i" target="_blank">does have semantic meaning</a> in HTML5 and we were not using it correctly. Luckily, the fix is simple:
         </p>
-        <p>
-          <code><?= htmlspecialchars('<span class="fa fa-camera-retro"></span>') ?></code>
-        </p>
+<pre><code><?= htmlspecialchars('<span class="fa fa-camera-retro"></span>') ?></code></pre>
       </section>
       <section>
         <h3>Labels for Form Elements</h3>

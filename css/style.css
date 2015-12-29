@@ -383,7 +383,7 @@ code {
   white-space: nowrap; }
 
 pre > code {
-  display: block;
+  display: inline-block;
   padding: 1rem 1.5rem;
   white-space: pre; }
 
@@ -691,6 +691,9 @@ ol {
     max-width: 480px; } }
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
+  pre > code {
+    display: block; }
+
   .hidden-xs {
     display: block; }
 
