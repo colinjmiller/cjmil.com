@@ -312,3 +312,15 @@ ol {
     font-weight: bold;
   }
 }
+
+// Resolution Specific Utilities
+
+.hidden-xs {
+  display: none;
+}
+.visible-xs {
+  display: block;
+}
+.visible-xs-inline {
+  display: inline;
+}

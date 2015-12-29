@@ -675,12 +675,30 @@ ol {
   .comics figcaption {
     font-weight: bold; }
 
+.hidden-xs {
+  display: none; }
+
+.visible-xs {
+  display: block; }
+
+.visible-xs-inline {
+  display: inline; }
+
 /* Larger than mobile */
 @media (min-width: 400px) {
   .comics img {
     width: 49%;
     max-width: 480px; } }
 /* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+  .hidden-xs {
+    display: block; }
+
+  .visible-xs {
+    display: none; }
+
+  .visible-xs-inline {
+    display: none; } }
 /* Larger than tablet */
 @media (min-width: 750px) {
   .content-column {
@@ -703,7 +721,7 @@ ol {
     padding: 1px;
     border: 1px solid black; }
 
-  .mobile-menu .mobile-menu-example {
+  .sage .mobile-menu-example {
     display: block; }
 
   .navbar {
