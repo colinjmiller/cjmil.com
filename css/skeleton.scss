@@ -243,6 +243,28 @@ input[type="button"].button-primary:focus {
   border-color: darken($primary-color, 10%);
   color: #FFF; }
 
+.button.button-secondary,
+button.button-secondary,
+input[type="submit"].button-secondary,
+input[type="reset"].button-secondary,
+input[type="button"].button-secondary {
+  color: $secondary-color;
+  border-color: $secondary-color;
+  background-color: #f9f9f9; }
+.button.button-secondary:hover,
+button.button-secondary:hover,
+input[type="submit"].button-secondary:hover,
+input[type="reset"].button-secondary:hover,
+input[type="button"].button-secondary:hover,
+.button.button-secondary:focus,
+button.button-secondary:focus,
+input[type="submit"].button-secondary:focus,
+input[type="reset"].button-secondary:focus,
+input[type="button"].button-secondary:focus {
+  background-color: #fff;
+  border-color: darken($secondary-color, 15%);
+  color: darken($secondary-color, 15%); }
+
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -382,6 +404,12 @@ p {
   box-sizing: border-box; }
 .text-center {
   text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
 }
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
