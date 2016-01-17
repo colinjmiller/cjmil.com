@@ -47,8 +47,9 @@ class View {
         <footer class="container">
           <div>
             <a class="social-link" href="http://www.linkedin.com/profile/view?id=273021207" target="_blank"><img src="/images/icons/linkedIn.svg" alt="LinkedIn" /></a>
-            <a class="social-link" href="https://www.facebook.com/colinjmiller93" target="_blank"><img src="/images/icons/facebook.svg" alt="Facebook" /></a>
             <a class="social-link" href="https://github.com/colinjmiller" target="_blank"><img src="/images/icons/github.svg" alt="Github" /></a>
+            <a class="social-link" href="https://www.facebook.com/colinjmiller93" target="_blank"><img src="/images/icons/facebook.svg" alt="Facebook" /></a>
+            <a class="social-link" href="https://twitter.com/cjmil_" target="_blank"><img src="/images/icons/twitter.svg" alt="Twitter" /></a>
           </div>
           Copyright &copy; <?= date("Y") ?> Colin Miller
           <?php if ($translations) { ?>
