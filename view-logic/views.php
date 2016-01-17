@@ -42,6 +42,11 @@ class View {
   public static function footer_logic($translations = true) {
     ?>
         <footer class="container">
+          <div>
+            <a class="social-link" href="http://www.linkedin.com/profile/view?id=273021207" target="_blank"><img src="/images/icons/linkedIn.svg" alt="LinkedIn" /></a>
+            <a class="social-link" href="https://www.facebook.com/colinjmiller93" target="_blank"><img src="/images/icons/facebook.svg" alt="Facebook" /></a>
+            <a class="social-link" href="https://github.com/colinjmiller" target="_blank"><img src="/images/icons/github.svg" alt="Github" /></a>
+          </div>
           Copyright &copy; <?= date("Y") ?> Colin Miller
           <?php if ($translations) { ?>
           <div class="language-options">
@@ -83,8 +88,7 @@ class View {
     $menu = array(
       'home' => array('text' => t('home'), 'url' => "/"),
       'projects' => array('text' => t('projects'), 'url' => '/projects/'),
-      'writing' => array('text' => t('writing'), 'url' => '/writing'),
-      'linkedin' => array('text' => t('linkedin'), 'url' => 'http://www.linkedin.com/profile/view?id=273021207')
+      'writing' => array('text' => t('writing'), 'url' => '/writing')
     );
 
     ?>

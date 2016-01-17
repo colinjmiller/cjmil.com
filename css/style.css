@@ -2735,6 +2735,9 @@ ol {
     margin-bottom: 0;
     clear: both; }
 
+.social-link img {
+  max-width: 32px; }
+
 .portfolio dt {
   font-weight: bold; }
 .portfolio .klass img {
