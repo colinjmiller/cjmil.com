@@ -11,7 +11,7 @@ class View {
   public static function header_logic($title = "cjmil.com") {
 
     // Used to prevent caching of resources when they're updated
-    $VERSION = 0;
+    $VERSION = 1;
 
     ?>
     <!DOCTYPE html>
@@ -115,6 +115,27 @@ class View {
           }
         ?>
       </div>
+    </div>
+    <div class="container">
+      <?php
+        $filepath = $_SERVER['REQUEST_URI'];
+        $components = preg_split('/\//', $filepath, -1, PREG_SPLIT_NO_EMPTY);
+        if (count($components) >= 2) {
+          ?>
+          <a class="nav-pill" href="/">Home</a> /
+          <?php
+          for ($i = 0; $i < count($components) - 1; $i++) {
+            $url = implode('/', array_slice($components, 0, $i + 1));
+            $title = $components[$i];
+            ?>
+              <a class="nav-pill" href="/<?= $url ?>"><?= $title ?></a> /
+            <?php
+          }
+          ?>
+          Current Page
+          <?php
+        }
+      ?>
     </div>
     <?php
   }

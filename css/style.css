@@ -3093,6 +3093,9 @@ ol {
     margin-bottom: 0;
     clear: both; }
 
+.nav-pill {
+  text-transform: capitalize; }
+
 .social-link img {
   max-width: 32px; }
 
