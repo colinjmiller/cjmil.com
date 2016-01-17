@@ -35,8 +35,7 @@ class View {
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
           })();
         </script>
-        <script async defer src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script async defer src="/javascript/language.js"></script>
+        <script src="/javascript/common.js"></script>
       </head>
       <body>
     <?php
