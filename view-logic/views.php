@@ -9,6 +9,10 @@ if (isset($_SESSION["language"]) && $_SESSION["language"] == "de") {
 
 class View {
   public static function header_logic($title = "cjmil.com") {
+
+    // Used to prevent caching of resources when they're updated
+    $VERSION = 0;
+
     ?>
     <!DOCTYPE html>
     <html lang="<?= t('lang') ?>">
@@ -19,8 +23,7 @@ class View {
         <meta name="author" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="/css/normalize.css">
-        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/style.css?version=<?= $VERSION ?>">
         <link rel="icon" type="image/png" href="/images/favicon.png" />
         <script type="text/javascript">
           var _gaq = _gaq || [];
