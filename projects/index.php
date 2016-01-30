@@ -26,6 +26,13 @@
         </dd>
       </dl>
       <dl>
+        <dt><a href="words/">Trip Up</a></dt>
+        <dd class="creation-date">Created: March 7th, 2015</dd>
+        <dd>
+          Trip Up is a game I made in March, 2015 for an 18-hour Hack-a-thon hosted at Facebook headquarters in Seattle, WA. It tests your typing abilities by making you quickly type words before obstacles stop your progress! I'm proud to say that I took 2nd place in the event, despite being a one-person team!
+        </dd>
+      </dl>
+      <dl>
         <dt><a href="https://apps.facebook.com/facebookfinal/" target="_blank">The Facebook Final</a></dt>
         <dd class="creation-date">Created: April 26th, 2014</dd>
         <dd>The Facebook Final is a quiz on how well you know your Facebook friends. Three friends and I got together at Facebook headquarters in Seattle for their annual 24-hour Hack-A-Thon. Beginning at 6PM, the four of us caffeinated up and worked steadily through the night and morning.</dd>
