@@ -31,11 +31,16 @@ $query = $DB->prepare('SELECT name, score FROM scores ORDER BY score DESC LIMIT 
 if(!$query->execute()) {
   throw new Exception("Problem querying database");
 }
-$response = json_encode($query->fetchAll(PDO::FETCH_ASSOC));
+$scores = $query->fetchAll(PDO::FETCH_ASSOC);
+for ($i = 0; $i < count($scores); $i++) {
+  $scores[$i]['name'] = htmlspecialchars($scores[$i]['name']);
+  $scores[$i]['score'] = htmlspecialchars($scores[$i]['score']);
+}
+$scores = json_encode($scores);
 
 $DB = null;
 header('Content-type: application/json');
 
-echo $response;
+echo $scores;
 
 ?>

@@ -219,7 +219,11 @@
         $(".play-again").css("display", "block");
         var scoresList = $("<ol/>").appendTo("#play-area");
         $.each(data, function(index, value) {
-          $("<li/>").html("<span class='score'>" + value.score + "</span><span class='name'>" + value.name + "</span>").appendTo(scoresList);
+          $("<li/>").append(
+            $("<span>").addClass("score").text(value.score)
+          ).append(
+            $("<span>").addClass("name").text(value.name)
+          ).appendTo(scoresList);
         });
       });
   }
