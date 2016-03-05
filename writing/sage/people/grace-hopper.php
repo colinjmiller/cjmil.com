@@ -17,7 +17,7 @@
         </div>
         <div class="introduction">
           <p>
-            Grace Hopper: Computing extraordinaire, doctor of mathematics, rear admiral of the Navy, lifelong teacher and learner. I first heard about Grace Hopper during my sophomore year of college; she has since been a personal idol and source of inspiration for the possibilities in life. As a computer scientist with a passion for teaching and son of a career military man, Grace Hopper embodies many of the values that I hold dear in life.
+            Grace Hopper: Computing extraordinaire, doctor of mathematics, rear admiral of the Navy, lifelong teacher and learner. I first heard about Grace Hopper during my sophomore year of college; she has since been a personal idol and source of inspiration for the possibilities in life. Grace Hopper embodies many of the values that I, as a computer scientist with a passion for teaching and son of a career military man, hold dear in life.
           </p>
         </div>
       </section>
@@ -29,7 +29,7 @@
          In modern times, learning to program on a computer is easy enough that it can be self-taught. For those that pursue it, a college degree in computer science will have entire courses dedicated to data structures, algorithms, and architecture taught in a variety of languages and paradigms. For that, we can thank Grace Hopper. In 1952, Grace Hopper invented the first <strong>compiler</strong>, known as A-0. A compiler is a piece of software which can translate human-readable code into a language that the machine can understand.
         </p>
         <p>
-          So what could the A-0 compiler do? By today's standards, it was medieval: It provided mathematical subroutines. This means that a computer scientist could now write mathematic code and have it automatically translated into machine code that the computer could process! All the program had to do was look up the relevant function on a separate piece of tape and that mathematical function would be copied over to the program.
+          So what could the A-0 compiler do? By today's standards, it is medieval: It provides mathematical subroutines. This means that a programmer could write mathematic code and have it automatically translated into machine code that the computer could process! All the program had to do was look up the relevant function on a separate piece of tape and that mathematical function would be copied over to the program.
         </p>
         <p>
           This event was pivotal in the field because it proved that computers could write their own programs. Grace Hopper was met with resistance to this idea for years, claiming:
@@ -52,13 +52,13 @@
           <h2>She Challenged Boundaries</h2>
         </header>
         <p>
-          Grace Hopper was born in 1906, a time when women's rights in the United States were limited at best. For context, the 19th Amendment to the Constitution was ratified and granted women the right to vote in federal elections when Grace Hopper was 14 years old. She challenged the role of women in society by pursuing mathematics and physics degrees at Vassar College when she turned 17 and continued her education by obtaining a master's degree and PhD in mathematics at Yale. Despite her doctorate in mathematics, it was unlikely she would ever teach at a level beyond high school due to her gender. Vassar College hired her on as an instructor of mathematics and, by 1941, promoted her to associate professor.
+          Grace Hopper was born in 1906, a time when women's rights in the United States were limited at best. For context, the 19th Amendment to the Constitution was ratified and granted women the right to vote in federal elections when Grace Hopper was 14 years old. She challenged the role of women in society by pursuing mathematics and physics degrees at Vassar College when she turned 17 and continued her education by obtaining a master's degree and PhD in mathematics at Yale. Despite her doctorate in mathematics, it was unlikely she would ever teach at a level beyond high school due to her gender. Hopper pushed against the expectations of women by applying for a teaching position at her undergraduate college. Against the odds, Vassar College hired her on as an instructor of mathematics and, by 1941, promoted her to associate professor.
         </p>
         <p>
           In 1943, Grace Hopper obtained a leave of absence in order to help the US Navy during World War II by joining <strong>Women Accepted for Volunteer Emergency Service</strong>, or WAVES, a women's branch of the United States Naval Reserve. Despite failing to meet the weight requirements for the Navy, Grace Hopper trained and graduated at the top of her class, finishing with the rank of Lieutenant, Junior Grade. She began work at the Bureau of Ships Computation PRoject at Harvard University, where she worked on the Mark I as a programmer.
         </p>
         <p>
-          After the war, the 38-year-old Grace Hopper requested to be transferred from the reserve to the regular Navy, but was denied due to her age. Although she was offered a full professorship at Vassar, she turned down the offer in favor of continuing work in the Naval Reserve as a researcher as Harvard.
+          After the war, the 38-year-old Grace Hopper requested to be transferred from the reserve to the regular Navy, but was denied due to her age. Although she was offered a full professorship at Vassar, she turned down the offer in favor of continuing work in the Naval Reserve as a researcher at Harvard. MORE FILLER FACTS HERE!!
         </p>
         <p>
           In 1966, Commander Grace Hopper was forced to retire at age 60. However, she was recalled to active duty in 1967 and again in 1972 to serve as the director of the Navy Programming Languages Group. For her work, she was promoted to Captain in 1973 and Rear Admiral (Commodore at the time) in 1983. In 1986, she was forced to retire a final time and, at 79 years old, was the oldest active duty naval officer.
@@ -69,7 +69,7 @@
           <h2>She Made Programming Relatable</h2>
         </header>
         <p>
-          Grace Hopper is famous for using telephone wire to explain why efficiency is so important in computer programs. The earliest computers were nowhere near as fast as modern technology, but they were a significant jump in speed when compared to manual calculations by a human. The earliest computer scientists were, therefore, some of the first to think of operations in terms of thousandths, millionths, and billionths of a second. As a young scientist, Hopper found working in terms of billionths of a second, nanoseconds, to be too abstract for her or any of her coworkers to understand. To better understand, she calculated the maximum distance that electrons could travel in a billionth of a second, approximately 11.8 inches, and carried around a piece of telephone wire cut to that length as a reminder.
+          Grace Hopper is famous for using telephone wire to explain why efficiency is so important in computer programs. The earliest computers were nowhere near as fast as modern technology, but they were a significant jump in speed when compared to manual calculations by a human. The earliest computer scientists were some of the first to think of operations in terms of thousandths, millionths, and billionths of a second. As a young scientist, Hopper found working in terms of billionths of a second, nanoseconds, to be too abstract for her or any of her coworkers to understand. To better understand, she calculated the maximum distance that electrons could travel in a billionth of a second, approximately 11.8 inches, and carried around a piece of telephone wire cut to that length as a reminder.
         </p>
         <p>
           During talks, Hopper would hand each audience member a foot-long piece of telephone wire that represented one nanosecond. If a high-ranking military official would ask her why it took so long for satellite messages to come in, she would ask them to picture each nanosecond lined back-to-back as it travels to the satellite and back. When talking with computer scientists, she would also bring in a representation of a microsecond, a 984-foot piece of telephone wire, to remind them why efficiency is so important in their work.
