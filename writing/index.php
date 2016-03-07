@@ -22,11 +22,5 @@
           Join me as I explore the rise of fascism in Germany, examining the reasons behind it, why it was allowed to happen, and what people of the time thought about it.
         </dd>
       </dl>
-      <dl>
-        <dt><a href="/resume.pdf">R&eacute;sum&eacute;</a></dt>
-        <dd>
-          This is the part where I tell you all about how great I am!
-        </dd>
-      </dl>
     </div>
 <?= View::footer_logic(false) ?>
