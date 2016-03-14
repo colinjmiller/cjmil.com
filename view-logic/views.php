@@ -8,10 +8,10 @@ if (isset($_SESSION["language"]) && $_SESSION["language"] == "de") {
 }
 
 class View {
-  public static function header_logic($title = "cjmil.com") {
+  public static function header_logic($title = "cjmil.com", $description = "cjmil.com houses the work of Colin J. Miller, a computer scientist and web developer from the Seattle area") {
 
     // Used to prevent caching of resources when they're updated
-    $VERSION = 1;
+    $VERSION = 2;
 
     ?>
     <!DOCTYPE html>
@@ -19,7 +19,7 @@ class View {
       <head>
         <meta charset="utf-8">
         <title><?= $title ?> | Colin J. Miller</title>
-        <meta name="description" content="cjmil.com houses the work of Colin J. Miller, a computer scientist and web developer from the Seattle area">
+        <meta name="description" content="<?= $description ?>">
         <meta name="author" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>

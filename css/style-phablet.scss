@@ -6,3 +6,12 @@
     max-width: 480px;
   }
 }
+
+// Resolution Specific Utilities
+
+.pull-right-phablet {
+  float: right;
+}
+.pull-left-phablet {
+  float: left;
+}

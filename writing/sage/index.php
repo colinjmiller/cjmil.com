@@ -39,7 +39,14 @@
         </dl>
       </section>
       <section>
-        <h2>Exceptional Computer Scientists</h2>
+        <h2>Amazing People</h2>
+        <dl>
+          <dt><a href="people/grace-hopper.php">Grade Hopper</a></dt>
+          <dd style="font-style: italic;">Published <time datetime="2016-3-13">March 13th, 2016</time>.</dd>
+          <dd>
+            Grace Hopper: Computing extraordinaire, doctor of mathematics, rear admiral of the Navy, lifelong teacher and learner.
+          </dd>
+        </dl>
       </section>
     </div>
 <?= View::footer_logic(false) ?>
