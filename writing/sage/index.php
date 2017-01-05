@@ -5,7 +5,7 @@
 ?>
 <?= View::header_logic("Sage Advice") ?>
   <?= View::navigation_bar("Writing") ?>
-    <div class="container">
+    <article class="container">
       <img class="main-img u-light-margin" src="/images/sage/sage_wave.svg" alt="" />
       <div class="content-column">
         <h1>Sage Advice</h1>
@@ -48,5 +48,5 @@
           </dd>
         </dl>
       </section>
-    </div>
+    </article>
 <?= View::footer_logic(false) ?>

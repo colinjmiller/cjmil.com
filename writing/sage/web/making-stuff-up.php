@@ -3,7 +3,7 @@
   require_once("{$_SERVER['DOCUMENT_ROOT']}/view-logic/views.php");
 
 ?>
-<?= View::header_logic("Making Stuff Up | Sage Advice") ?>
+<?= View::header_logic("Making Stuff Up | Writing") ?>
   <?= View::navigation_bar("Writing") ?>
     <section class="comics container">
       <h1>Making Stuff Up</h1>

@@ -3,7 +3,7 @@
   require_once("{$_SERVER['DOCUMENT_ROOT']}/view-logic/views.php");
 
 ?>
-<?= View::header_logic("Expandable Mobile Menu in CSS | Sage Advice") ?>
+<?= View::header_logic("Expandable Mobile Menu in CSS | Writing") ?>
   <?= View::navigation_bar("Writing") ?>
     <article class="sage container">
       <img class="main-img u-light-margin" src="/images/sage/sage_on_mobile.svg" alt="" />

@@ -3,7 +3,7 @@
   require_once("{$_SERVER['DOCUMENT_ROOT']}/view-logic/views.php");
 
 ?>
-<?= View::header_logic("CSS Precedence Rules | Sage Advice") ?>
+<?= View::header_logic("CSS Precedence Rules | Writing") ?>
   <?= View::navigation_bar("Writing") ?>
     <article class="sage container">
       <img class="main-img u-light-margin" src="/images/sage/sage_css_weights.svg" alt="Sage weighing two CSS properties" />

@@ -3,7 +3,7 @@
   require_once("{$_SERVER['DOCUMENT_ROOT']}/view-logic/views.php");
 
 ?>
-<?= View::header_logic("An Intro to Web Accessibility | Sage Advice") ?>
+<?= View::header_logic("An Intro to Web Accessibility | Writing") ?>
   <?= View::navigation_bar("Writing") ?>
     <article class="sage container">
       <img class="main-img u-light-margin" src="/images/sage/sage_blind.svg" alt="" />
