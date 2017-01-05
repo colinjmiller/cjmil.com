@@ -120,7 +120,7 @@ class View {
       <?php
         $filepath = $_SERVER['REQUEST_URI'];
         $components = preg_split('/\//', $filepath, -1, PREG_SPLIT_NO_EMPTY);
-        $blacklist = ['sage', 'web'];
+        $blacklist = ['sage', 'web', 'people'];
         if (count($components) >= 2) {
           ?>
           <a class="nav-pill" href="/">Home</a> /
