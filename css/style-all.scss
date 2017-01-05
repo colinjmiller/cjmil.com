@@ -333,6 +333,13 @@ ol {
   display: inline;
 }
 
+.pull-right-tablet, .pull-right-phablet, .pull-right-desktop, .pull-right-desktophd, .pull-right-huge {
+  float: none;
+}
+.pull-left-tablet, .pull-left-phablet, .pull-left-desktop, .pull-left-desktophd, .pull-left-huge {
+  float: none;
+}
+
 // Alerts
 
 .alert {

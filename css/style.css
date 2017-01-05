@@ -3153,6 +3153,12 @@ ol {
 .visible-xs-inline {
   display: inline; }
 
+.pull-right-tablet, .pull-right-phablet, .pull-right-desktop, .pull-right-desktophd, .pull-right-huge {
+  float: none; }
+
+.pull-left-tablet, .pull-left-phablet, .pull-left-desktop, .pull-left-desktophd, .pull-left-huge {
+  float: none; }
+
 .alert {
   padding: 15px;
   border-width: 1px;
@@ -3183,7 +3189,13 @@ ol {
 @media (min-width: 400px) {
   .comics img {
     width: 49%;
-    max-width: 480px; } }
+    max-width: 480px; }
+
+  .pull-right-phablet {
+    float: right; }
+
+  .pull-left-phablet {
+    float: left; } }
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
   pre > code {
@@ -3196,7 +3208,13 @@ ol {
     display: none; }
 
   .visible-xs-inline {
-    display: none; } }
+    display: none; }
+
+  .pull-right-tablet {
+    float: right; }
+
+  .pull-left-tablet {
+    float: left; } }
 /* Larger than tablet */
 @media (min-width: 750px) {
   .content-column {
@@ -3236,6 +3254,24 @@ ol {
       font-size: 20px; }
 
   .ornate span {
-    line-height: inherit; } }
+    line-height: inherit; }
+
+  .pull-right-desktop {
+    float: right; }
+
+  .pull-left-desktop {
+    float: left; } }
 /* Larger than desktop */
+@media (min-width: 1000px) {
+  .pull-right-desktophd {
+    float: right; }
+
+  .pull-left-desktophd {
+    float: left; } }
 /* Larger than Desktop HD */
+@media (min-width: 1200px) {
+  .pull-right-huge {
+    float: right; }
+
+  .pull-left-huge {
+    float: left; } }

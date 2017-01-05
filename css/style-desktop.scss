@@ -54,3 +54,12 @@
 .ornate span {
   line-height: inherit;
 }
+
+// Resolution Specific Utilities
+
+.pull-right-desktop {
+  float: right;
+}
+.pull-left-desktop {
+  float: left;
+}
