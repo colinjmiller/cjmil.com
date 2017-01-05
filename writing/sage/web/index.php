@@ -1,5 +1,5 @@
 <?php
 
- header('Location: /writing/sage/', TRUE, 302);
+ header('Location: /writing/', TRUE, 302);
 
 ?>

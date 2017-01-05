@@ -120,6 +120,7 @@ class View {
       <?php
         $filepath = $_SERVER['REQUEST_URI'];
         $components = preg_split('/\//', $filepath, -1, PREG_SPLIT_NO_EMPTY);
+        $blacklist = ['sage', 'web'];
         if (count($components) >= 2) {
           ?>
           <a class="nav-pill" href="/">Home</a> /
@@ -127,9 +128,11 @@ class View {
           for ($i = 0; $i < count($components) - 1; $i++) {
             $url = implode('/', array_slice($components, 0, $i + 1));
             $title = $components[$i];
-            ?>
-              <a class="nav-pill" href="/<?= $url ?>"><?= $title ?></a> /
-            <?php
+            if (!in_array($title, $blacklist)) {
+              ?>
+                <a class="nav-pill" href="/<?= $url ?>"><?= $title ?></a> /
+              <?php
+            }
           }
           ?>
           Current Page
